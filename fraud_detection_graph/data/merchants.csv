@@ -1,0 +1,1001 @@
+merchant_id,merchant_name,category,location_city,location_state,avg_transaction_amount,fraud_history_count,risk_level
+merchant_00000,Merchant_0,Department Store,City_59,State_12,5.421313852354989,0,Low
+merchant_00001,Merchant_1,Electronics,City_87,State_27,110.81717736578558,0,Low
+merchant_00002,Merchant_2,Hotel,City_3,State_43,481.1861821504125,2,Low
+merchant_00003,Merchant_3,Department Store,City_88,State_31,83.51000040423601,0,Low
+merchant_00004,Merchant_4,Restaurant,City_42,State_18,65.33929826780307,0,Low
+merchant_00005,Merchant_5,Entertainment,City_57,State_43,119.68981332216357,0,Low
+merchant_00006,Merchant_6,ATM,City_43,State_6,213.89044986292268,0,Low
+merchant_00007,Merchant_7,Grocery Store,City_2,State_30,508.57307967649973,0,Low
+merchant_00008,Merchant_8,Airline,City_97,State_19,40.42450172267968,0,Low
+merchant_00009,Merchant_9,Online Retail,City_92,State_2,41.376126611993314,0,Low
+merchant_00010,Merchant_10,Department Store,City_16,State_6,72.69268721052478,0,Low
+merchant_00011,Merchant_11,Airline,City_38,State_31,201.5739786235534,0,Medium
+merchant_00012,Merchant_12,Pharmacy,City_21,State_40,15.03292218913746,2,Low
+merchant_00013,Merchant_13,Pharmacy,City_80,State_47,163.5031184844459,0,Low
+merchant_00014,Merchant_14,Airline,City_89,State_11,73.52641650021617,1,Low
+merchant_00015,Merchant_15,Electronics,City_51,State_19,289.48844664715534,1,Low
+merchant_00016,Merchant_16,ATM,City_97,State_20,15.618521579913425,0,Low
+merchant_00017,Merchant_17,Online Retail,City_65,State_20,160.9778181257211,0,Low
+merchant_00018,Merchant_18,Grocery Store,City_53,State_36,30.3778992726854,0,Low
+merchant_00019,Merchant_19,Pharmacy,City_47,State_37,53.906201330921895,0,Medium
+merchant_00020,Merchant_20,Hotel,City_47,State_12,2.875594890423101,0,Low
+merchant_00021,Merchant_21,ATM,City_10,State_40,177.10660435872487,1,Low
+merchant_00022,Merchant_22,Hotel,City_54,State_48,76.93759304038058,0,Low
+merchant_00023,Merchant_23,Airline,City_18,State_16,64.12044057392929,0,Low
+merchant_00024,Merchant_24,Gas Station,City_79,State_14,18.129810559818626,0,Low
+merchant_00025,Merchant_25,Department Store,City_37,State_39,21.276351339347055,0,Low
+merchant_00026,Merchant_26,Pharmacy,City_31,State_20,129.52715009612552,1,Medium
+merchant_00027,Merchant_27,Grocery Store,City_71,State_2,122.28345410445922,0,Medium
+merchant_00028,Merchant_28,ATM,City_31,State_2,62.30461713761821,0,Low
+merchant_00029,Merchant_29,Gas Station,City_11,State_12,87.8851881514628,1,Low
+merchant_00030,Merchant_30,Pharmacy,City_54,State_47,32.689029908378636,2,Low
+merchant_00031,Merchant_31,Hotel,City_83,State_6,43.32256991529288,2,Low
+merchant_00032,Merchant_32,Grocery Store,City_54,State_28,70.42608917525828,0,Low
+merchant_00033,Merchant_33,Electronics,City_56,State_25,40.33548934624125,0,Low
+merchant_00034,Merchant_34,Pharmacy,City_18,State_49,29.494997786212952,3,Low
+merchant_00035,Merchant_35,Pharmacy,City_95,State_4,27.801272157875655,1,Low
+merchant_00036,Merchant_36,Pharmacy,City_1,State_45,47.341128189502264,0,Low
+merchant_00037,Merchant_37,Department Store,City_96,State_42,52.748078374608035,0,High
+merchant_00038,Merchant_38,Online Retail,City_85,State_19,177.29592538618942,1,Low
+merchant_00039,Merchant_39,Entertainment,City_5,State_46,48.25174366896235,0,Low
+merchant_00040,Merchant_40,Entertainment,City_68,State_37,49.04787459717643,1,Low
+merchant_00041,Merchant_41,Clothing,City_62,State_30,20.065576766660296,1,Medium
+merchant_00042,Merchant_42,Restaurant,City_80,State_39,21.324098784766548,0,Medium
+merchant_00043,Merchant_43,Online Retail,City_51,State_46,171.61906068750545,1,Low
+merchant_00044,Merchant_44,Clothing,City_85,State_5,64.74014390284972,1,Low
+merchant_00045,Merchant_45,Restaurant,City_93,State_23,58.37525941956877,1,Low
+merchant_00046,Merchant_46,Gas Station,City_88,State_26,121.73787563093538,2,Low
+merchant_00047,Merchant_47,Airline,City_76,State_23,324.9616802892611,0,Low
+merchant_00048,Merchant_48,Entertainment,City_31,State_23,118.78062482890671,1,Medium
+merchant_00049,Merchant_49,Online Retail,City_15,State_17,44.938739578822364,0,Low
+merchant_00050,Merchant_50,Restaurant,City_90,State_11,69.33470628412923,0,Low
+merchant_00051,Merchant_51,Electronics,City_23,State_11,53.971632707523554,0,Low
+merchant_00052,Merchant_52,Online Retail,City_49,State_31,62.97752706305541,0,Low
+merchant_00053,Merchant_53,Grocery Store,City_34,State_7,52.28994120972208,0,Low
+merchant_00054,Merchant_54,Entertainment,City_86,State_35,17.381208335266177,0,Medium
+merchant_00055,Merchant_55,Clothing,City_35,State_6,55.59713406709955,0,Low
+merchant_00056,Merchant_56,Online Retail,City_7,State_27,60.42109034217741,0,Low
+merchant_00057,Merchant_57,Department Store,City_34,State_46,123.49763225678606,0,Low
+merchant_00058,Merchant_58,Department Store,City_94,State_15,20.74896192611744,0,Low
+merchant_00059,Merchant_59,Restaurant,City_7,State_37,29.8356130052795,0,Low
+merchant_00060,Merchant_60,Gas Station,City_46,State_38,22.72771856535537,1,Low
+merchant_00061,Merchant_61,Department Store,City_86,State_35,27.345882480605827,0,Low
+merchant_00062,Merchant_62,Restaurant,City_32,State_15,18.21531369978026,0,Medium
+merchant_00063,Merchant_63,Grocery Store,City_91,State_45,42.08403473663361,1,Low
+merchant_00064,Merchant_64,Electronics,City_40,State_2,12.442181159483207,0,Low
+merchant_00065,Merchant_65,Entertainment,City_12,State_11,237.9107066528247,1,Low
+merchant_00066,Merchant_66,ATM,City_36,State_27,125.22488824815507,0,Low
+merchant_00067,Merchant_67,Restaurant,City_18,State_43,151.68632871176055,0,Low
+merchant_00068,Merchant_68,Gas Station,City_2,State_27,142.42482706921828,0,Low
+merchant_00069,Merchant_69,Grocery Store,City_75,State_31,32.999909423405576,0,Low
+merchant_00070,Merchant_70,Entertainment,City_26,State_39,128.03735713359248,2,Low
+merchant_00071,Merchant_71,Online Retail,City_59,State_31,76.56555793928015,1,Low
+merchant_00072,Merchant_72,Online Retail,City_51,State_21,24.24583309638683,2,Medium
+merchant_00073,Merchant_73,Airline,City_81,State_8,14.298332583796999,0,Low
+merchant_00074,Merchant_74,ATM,City_54,State_3,76.79403655643299,1,Low
+merchant_00075,Merchant_75,Pharmacy,City_3,State_26,51.862056252738874,0,Medium
+merchant_00076,Merchant_76,Hotel,City_46,State_14,47.914904255729354,0,Low
+merchant_00077,Merchant_77,Online Retail,City_36,State_4,58.885474611893144,0,Low
+merchant_00078,Merchant_78,Airline,City_50,State_28,69.2670121296245,0,Low
+merchant_00079,Merchant_79,Entertainment,City_95,State_42,75.08289876209048,0,High
+merchant_00080,Merchant_80,Clothing,City_83,State_24,27.63335338927967,0,Low
+merchant_00081,Merchant_81,Department Store,City_50,State_47,73.01736266242352,0,Low
+merchant_00082,Merchant_82,Airline,City_20,State_41,128.39751147525305,1,Medium
+merchant_00083,Merchant_83,Department Store,City_62,State_15,114.65657657330021,0,Low
+merchant_00084,Merchant_84,Restaurant,City_27,State_4,40.341393421060026,1,Low
+merchant_00085,Merchant_85,Entertainment,City_35,State_45,153.19626635547374,1,Low
+merchant_00086,Merchant_86,Hotel,City_25,State_13,33.96191438189767,2,Low
+merchant_00087,Merchant_87,Electronics,City_2,State_46,36.286113660081426,1,Low
+merchant_00088,Merchant_88,ATM,City_80,State_43,22.704587405046745,0,Medium
+merchant_00089,Merchant_89,Pharmacy,City_37,State_7,97.54964908422362,0,Low
+merchant_00090,Merchant_90,Clothing,City_60,State_30,142.90583578990723,0,Low
+merchant_00091,Merchant_91,Restaurant,City_51,State_43,21.268770870370677,0,Low
+merchant_00092,Merchant_92,Clothing,City_87,State_5,25.179785412553677,0,Low
+merchant_00093,Merchant_93,Department Store,City_19,State_42,31.767204882563863,0,Medium
+merchant_00094,Merchant_94,Pharmacy,City_8,State_14,115.77726624782044,1,Low
+merchant_00095,Merchant_95,Electronics,City_15,State_36,79.00895303019814,1,Low
+merchant_00096,Merchant_96,Electronics,City_58,State_7,67.59804213281951,0,Low
+merchant_00097,Merchant_97,Pharmacy,City_88,State_23,71.25511775252899,1,Low
+merchant_00098,Merchant_98,Online Retail,City_37,State_11,39.43039154873949,0,Medium
+merchant_00099,Merchant_99,Department Store,City_88,State_32,119.24081879461485,0,Medium
+merchant_00100,Merchant_100,Clothing,City_96,State_31,45.00288534719588,2,Low
+merchant_00101,Merchant_101,Entertainment,City_36,State_10,63.12401715461453,0,High
+merchant_00102,Merchant_102,ATM,City_90,State_34,10.547279532545344,0,Low
+merchant_00103,Merchant_103,Airline,City_45,State_9,125.45312193627636,2,Low
+merchant_00104,Merchant_104,Entertainment,City_89,State_17,25.843663885306892,1,Low
+merchant_00105,Merchant_105,Entertainment,City_69,State_39,391.5686652522179,0,Low
+merchant_00106,Merchant_106,Restaurant,City_9,State_46,49.38184085622838,0,Low
+merchant_00107,Merchant_107,Department Store,City_13,State_47,74.23620120191796,0,Low
+merchant_00108,Merchant_108,Pharmacy,City_21,State_9,79.41429732557056,0,Low
+merchant_00109,Merchant_109,Grocery Store,City_5,State_17,61.87747843993227,0,Medium
+merchant_00110,Merchant_110,Entertainment,City_11,State_15,41.646080588046104,0,Low
+merchant_00111,Merchant_111,Gas Station,City_22,State_26,19.65847893338452,0,Low
+merchant_00112,Merchant_112,Online Retail,City_53,State_18,139.250413987437,2,Low
+merchant_00113,Merchant_113,Airline,City_85,State_11,4.690380841032138,0,Low
+merchant_00114,Merchant_114,Hotel,City_96,State_29,22.291128536885704,0,Medium
+merchant_00115,Merchant_115,Clothing,City_45,State_36,23.050239188773567,0,Low
+merchant_00116,Merchant_116,ATM,City_79,State_14,55.88496014194095,0,Low
+merchant_00117,Merchant_117,Entertainment,City_76,State_48,13.512929796886372,0,Low
+merchant_00118,Merchant_118,Grocery Store,City_59,State_21,97.96166937419933,0,Low
+merchant_00119,Merchant_119,Hotel,City_18,State_41,27.93716909244524,0,Medium
+merchant_00120,Merchant_120,Electronics,City_77,State_44,18.92179210326735,0,Low
+merchant_00121,Merchant_121,Department Store,City_21,State_29,42.410348492185314,0,Medium
+merchant_00122,Merchant_122,Hotel,City_35,State_48,21.72515624161242,0,Low
+merchant_00123,Merchant_123,Airline,City_63,State_24,9.937414018805867,2,Low
+merchant_00124,Merchant_124,ATM,City_11,State_11,49.13699384578037,2,Low
+merchant_00125,Merchant_125,Hotel,City_92,State_19,14.260582527214604,1,Low
+merchant_00126,Merchant_126,Electronics,City_44,State_44,14.625805909691598,0,Low
+merchant_00127,Merchant_127,Gas Station,City_99,State_25,168.28240814549923,0,Low
+merchant_00128,Merchant_128,Department Store,City_16,State_27,24.61861736778161,0,Low
+merchant_00129,Merchant_129,Restaurant,City_40,State_44,38.17387969853955,0,Low
+merchant_00130,Merchant_130,Online Retail,City_22,State_46,113.91158527742574,0,High
+merchant_00131,Merchant_131,Department Store,City_42,State_38,20.224363737688716,0,Low
+merchant_00132,Merchant_132,Gas Station,City_18,State_26,29.45528268467677,2,Low
+merchant_00133,Merchant_133,Pharmacy,City_86,State_26,50.86497678421623,1,Low
+merchant_00134,Merchant_134,Restaurant,City_90,State_4,20.01604100526135,1,Low
+merchant_00135,Merchant_135,Grocery Store,City_61,State_24,32.58940002439191,0,Low
+merchant_00136,Merchant_136,Gas Station,City_21,State_18,17.8541340346385,0,Low
+merchant_00137,Merchant_137,Restaurant,City_17,State_42,47.7986267455722,2,Low
+merchant_00138,Merchant_138,Gas Station,City_74,State_6,37.63767865557216,0,Medium
+merchant_00139,Merchant_139,Entertainment,City_52,State_37,37.22670943266391,0,Low
+merchant_00140,Merchant_140,Hotel,City_23,State_49,13.70725662725105,1,Low
+merchant_00141,Merchant_141,Gas Station,City_26,State_25,235.2999661215135,0,Low
+merchant_00142,Merchant_142,Electronics,City_51,State_35,15.481825692651247,0,Low
+merchant_00143,Merchant_143,Gas Station,City_25,State_29,34.061017429076166,0,Low
+merchant_00144,Merchant_144,Airline,City_29,State_18,16.827443471848493,0,Low
+merchant_00145,Merchant_145,Electronics,City_11,State_36,36.013801081705964,0,Medium
+merchant_00146,Merchant_146,Online Retail,City_65,State_28,267.1082053827876,0,Medium
+merchant_00147,Merchant_147,Entertainment,City_11,State_15,47.20501961142529,0,Low
+merchant_00148,Merchant_148,Grocery Store,City_78,State_48,61.07727828640959,0,Low
+merchant_00149,Merchant_149,Pharmacy,City_16,State_35,158.68852654326335,0,Low
+merchant_00150,Merchant_150,Hotel,City_25,State_33,542.1384133739773,2,Low
+merchant_00151,Merchant_151,Clothing,City_76,State_41,82.81532483929738,0,Low
+merchant_00152,Merchant_152,Clothing,City_5,State_21,365.12959456817157,0,Low
+merchant_00153,Merchant_153,Department Store,City_74,State_18,45.85567796272601,0,Low
+merchant_00154,Merchant_154,Hotel,City_53,State_8,35.78392243273764,0,Low
+merchant_00155,Merchant_155,Entertainment,City_27,State_44,44.95403196401345,0,High
+merchant_00156,Merchant_156,Entertainment,City_56,State_5,29.120208541907303,1,Medium
+merchant_00157,Merchant_157,Grocery Store,City_32,State_34,102.63104035553219,2,Low
+merchant_00158,Merchant_158,Department Store,City_45,State_43,17.803365249835114,0,Low
+merchant_00159,Merchant_159,Grocery Store,City_17,State_12,79.3230764002935,0,Low
+merchant_00160,Merchant_160,Online Retail,City_55,State_41,77.57498938501303,0,Low
+merchant_00161,Merchant_161,Online Retail,City_37,State_13,39.74452628894159,1,Low
+merchant_00162,Merchant_162,Grocery Store,City_5,State_1,87.30085147632923,0,Low
+merchant_00163,Merchant_163,Online Retail,City_19,State_49,54.59275662261178,0,Low
+merchant_00164,Merchant_164,Online Retail,City_75,State_45,19.86733103030764,0,Low
+merchant_00165,Merchant_165,Hotel,City_69,State_11,252.71027340531785,0,Low
+merchant_00166,Merchant_166,ATM,City_2,State_38,37.0778921094589,1,Medium
+merchant_00167,Merchant_167,Electronics,City_77,State_22,116.63561581679149,0,Low
+merchant_00168,Merchant_168,Entertainment,City_3,State_6,169.28958917196252,0,Low
+merchant_00169,Merchant_169,Gas Station,City_55,State_9,43.3462863514416,0,Low
+merchant_00170,Merchant_170,Department Store,City_57,State_9,471.6532343743852,1,Medium
+merchant_00171,Merchant_171,Airline,City_67,State_11,13.282533408770076,0,Low
+merchant_00172,Merchant_172,Pharmacy,City_26,State_1,47.74061433811401,2,Medium
+merchant_00173,Merchant_173,Entertainment,City_36,State_17,86.8935078152475,0,Low
+merchant_00174,Merchant_174,Department Store,City_44,State_9,134.58925903347966,1,Low
+merchant_00175,Merchant_175,Gas Station,City_4,State_38,1043.9187236623936,0,Low
+merchant_00176,Merchant_176,Entertainment,City_93,State_26,303.9257798975535,1,Low
+merchant_00177,Merchant_177,Department Store,City_17,State_18,59.096713980983225,1,Low
+merchant_00178,Merchant_178,Online Retail,City_5,State_13,75.63837599544667,0,Medium
+merchant_00179,Merchant_179,Pharmacy,City_60,State_32,89.63493578487532,0,Medium
+merchant_00180,Merchant_180,Restaurant,City_5,State_24,20.256395324631,2,Low
+merchant_00181,Merchant_181,Electronics,City_67,State_45,17.695248553360152,1,Low
+merchant_00182,Merchant_182,ATM,City_58,State_16,393.2501468751765,0,Low
+merchant_00183,Merchant_183,Entertainment,City_86,State_30,32.41202385677219,0,Low
+merchant_00184,Merchant_184,Online Retail,City_92,State_36,43.80836859972129,0,Low
+merchant_00185,Merchant_185,Airline,City_43,State_39,18.977836412926223,0,Low
+merchant_00186,Merchant_186,Entertainment,City_45,State_41,44.940710826717535,1,Low
+merchant_00187,Merchant_187,Electronics,City_77,State_45,184.66765088733666,1,Medium
+merchant_00188,Merchant_188,Online Retail,City_17,State_10,88.736492941855,2,Low
+merchant_00189,Merchant_189,Pharmacy,City_55,State_1,6.4138488596853565,0,Low
+merchant_00190,Merchant_190,Clothing,City_52,State_13,15.477667951872029,1,Low
+merchant_00191,Merchant_191,Pharmacy,City_21,State_28,24.504624830028423,0,Low
+merchant_00192,Merchant_192,Restaurant,City_92,State_32,21.25134189353741,0,Low
+merchant_00193,Merchant_193,Pharmacy,City_46,State_32,43.70924362296217,0,Low
+merchant_00194,Merchant_194,Pharmacy,City_11,State_1,19.39485332502414,0,Medium
+merchant_00195,Merchant_195,Pharmacy,City_71,State_7,73.51037164048556,0,Low
+merchant_00196,Merchant_196,ATM,City_40,State_34,137.390009010635,0,Low
+merchant_00197,Merchant_197,Hotel,City_4,State_13,240.5852540044784,0,Low
+merchant_00198,Merchant_198,Restaurant,City_31,State_28,33.00011133542502,0,Low
+merchant_00199,Merchant_199,Grocery Store,City_12,State_34,39.0239084627053,0,Low
+merchant_00200,Merchant_200,Clothing,City_50,State_31,11.762749220839066,1,Medium
+merchant_00201,Merchant_201,ATM,City_26,State_11,340.3789548127581,0,Low
+merchant_00202,Merchant_202,Online Retail,City_82,State_26,142.1367191032082,0,Medium
+merchant_00203,Merchant_203,Electronics,City_23,State_34,48.058523809376126,0,Low
+merchant_00204,Merchant_204,Online Retail,City_82,State_26,70.48715900686123,0,Low
+merchant_00205,Merchant_205,Electronics,City_51,State_48,72.85309207282951,0,Medium
+merchant_00206,Merchant_206,Pharmacy,City_59,State_3,43.05002337368117,2,Medium
+merchant_00207,Merchant_207,Grocery Store,City_90,State_37,176.45280768601222,0,Low
+merchant_00208,Merchant_208,Clothing,City_8,State_10,30.39962597653569,0,Low
+merchant_00209,Merchant_209,ATM,City_52,State_49,13.129299143112254,0,Low
+merchant_00210,Merchant_210,Hotel,City_3,State_9,148.1185554461926,0,Low
+merchant_00211,Merchant_211,Electronics,City_27,State_37,40.04200214722695,2,High
+merchant_00212,Merchant_212,Department Store,City_83,State_6,72.8254834510363,0,Low
+merchant_00213,Merchant_213,Clothing,City_70,State_16,45.5287784318642,0,Low
+merchant_00214,Merchant_214,Grocery Store,City_51,State_27,174.2936544395329,0,High
+merchant_00215,Merchant_215,Restaurant,City_43,State_32,126.11790408162473,0,High
+merchant_00216,Merchant_216,ATM,City_4,State_42,32.24256523091573,0,Low
+merchant_00217,Merchant_217,Restaurant,City_10,State_32,77.80329787621936,0,Medium
+merchant_00218,Merchant_218,Gas Station,City_27,State_31,44.57252843614204,1,Low
+merchant_00219,Merchant_219,Hotel,City_19,State_33,20.58818647541608,0,Low
+merchant_00220,Merchant_220,Hotel,City_97,State_28,14.28859981286344,0,Medium
+merchant_00221,Merchant_221,Online Retail,City_23,State_22,25.28099595320256,2,Low
+merchant_00222,Merchant_222,Entertainment,City_66,State_27,16.751602768763696,0,Low
+merchant_00223,Merchant_223,Clothing,City_56,State_33,35.46660541463474,1,Medium
+merchant_00224,Merchant_224,Restaurant,City_86,State_24,4.7926687463577,0,Medium
+merchant_00225,Merchant_225,Department Store,City_51,State_43,91.07614978991663,0,Low
+merchant_00226,Merchant_226,Department Store,City_71,State_21,20.261188972060506,0,Medium
+merchant_00227,Merchant_227,Restaurant,City_42,State_13,51.46052398353476,0,High
+merchant_00228,Merchant_228,Airline,City_35,State_36,67.92281985631395,2,Medium
+merchant_00229,Merchant_229,Pharmacy,City_36,State_9,40.85247484499112,1,Low
+merchant_00230,Merchant_230,Electronics,City_75,State_38,56.77464159181333,1,Low
+merchant_00231,Merchant_231,Clothing,City_93,State_26,6.097646715475058,1,Medium
+merchant_00232,Merchant_232,ATM,City_71,State_28,57.395454514770144,1,Medium
+merchant_00233,Merchant_233,Online Retail,City_17,State_16,61.67290251854228,0,Low
+merchant_00234,Merchant_234,Hotel,City_62,State_25,15.978811584395984,1,Low
+merchant_00235,Merchant_235,Gas Station,City_16,State_15,293.1127062642194,1,Low
+merchant_00236,Merchant_236,Grocery Store,City_94,State_15,71.81496577154297,1,Low
+merchant_00237,Merchant_237,Airline,City_51,State_43,188.7592211812114,0,Medium
+merchant_00238,Merchant_238,Gas Station,City_34,State_18,152.36326812580305,0,Low
+merchant_00239,Merchant_239,Pharmacy,City_33,State_13,119.06902980452347,0,Low
+merchant_00240,Merchant_240,Grocery Store,City_60,State_45,49.967965215626016,0,Medium
+merchant_00241,Merchant_241,Grocery Store,City_31,State_24,6.958716881653017,0,Low
+merchant_00242,Merchant_242,Entertainment,City_91,State_34,18.914365812932626,1,Low
+merchant_00243,Merchant_243,Department Store,City_50,State_11,99.83669410003343,0,Low
+merchant_00244,Merchant_244,Airline,City_5,State_12,32.0419688971956,1,Low
+merchant_00245,Merchant_245,Gas Station,City_17,State_4,301.3817073516715,1,Medium
+merchant_00246,Merchant_246,Clothing,City_48,State_21,161.9882040740269,0,Low
+merchant_00247,Merchant_247,Electronics,City_28,State_43,344.8828075479758,1,Low
+merchant_00248,Merchant_248,Airline,City_50,State_31,175.65035398930632,0,Low
+merchant_00249,Merchant_249,Electronics,City_68,State_23,85.33671390685758,0,Low
+merchant_00250,Merchant_250,Airline,City_29,State_46,95.51268866252407,0,Low
+merchant_00251,Merchant_251,ATM,City_20,State_34,73.84466097426832,0,Low
+merchant_00252,Merchant_252,Pharmacy,City_21,State_28,7.472501943926525,0,Low
+merchant_00253,Merchant_253,Hotel,City_6,State_27,25.725711146377503,1,Low
+merchant_00254,Merchant_254,Clothing,City_74,State_38,21.002940337891538,0,Low
+merchant_00255,Merchant_255,Hotel,City_14,State_8,54.27034559415971,0,Low
+merchant_00256,Merchant_256,Entertainment,City_90,State_42,14.478209732292177,0,Low
+merchant_00257,Merchant_257,Electronics,City_50,State_47,115.78228569272049,0,Low
+merchant_00258,Merchant_258,Clothing,City_25,State_48,24.349078384777197,0,Medium
+merchant_00259,Merchant_259,Pharmacy,City_81,State_19,57.88842925236555,0,Low
+merchant_00260,Merchant_260,Airline,City_43,State_11,89.47128786187963,0,Low
+merchant_00261,Merchant_261,ATM,City_95,State_19,53.251317908841514,0,Low
+merchant_00262,Merchant_262,Pharmacy,City_66,State_23,11.260618662923859,1,Low
+merchant_00263,Merchant_263,Entertainment,City_89,State_2,60.745115122144995,2,Medium
+merchant_00264,Merchant_264,Hotel,City_21,State_34,76.34329300333651,0,Low
+merchant_00265,Merchant_265,Electronics,City_15,State_25,346.519613492014,1,Low
+merchant_00266,Merchant_266,Department Store,City_86,State_39,20.169573503535364,2,Low
+merchant_00267,Merchant_267,Gas Station,City_54,State_22,223.9202586057855,0,Low
+merchant_00268,Merchant_268,Grocery Store,City_86,State_21,15.31402378234471,1,Low
+merchant_00269,Merchant_269,Restaurant,City_66,State_9,16.417647567445893,0,Medium
+merchant_00270,Merchant_270,Entertainment,City_67,State_35,37.21815920250424,0,Low
+merchant_00271,Merchant_271,Online Retail,City_90,State_35,12.289086828641896,1,Medium
+merchant_00272,Merchant_272,Hotel,City_96,State_49,50.577021403094975,0,Low
+merchant_00273,Merchant_273,Airline,City_44,State_8,125.27771445727923,1,Low
+merchant_00274,Merchant_274,Online Retail,City_25,State_6,61.05844090080234,0,Low
+merchant_00275,Merchant_275,Hotel,City_24,State_30,31.069432000445055,0,Low
+merchant_00276,Merchant_276,Gas Station,City_65,State_45,33.65314388333631,1,Medium
+merchant_00277,Merchant_277,Hotel,City_47,State_20,75.26488761157769,1,Low
+merchant_00278,Merchant_278,Restaurant,City_49,State_15,65.48058662242119,0,Medium
+merchant_00279,Merchant_279,Airline,City_85,State_1,174.2061131413808,0,High
+merchant_00280,Merchant_280,Clothing,City_11,State_26,69.93809306577285,2,Low
+merchant_00281,Merchant_281,Online Retail,City_89,State_35,56.63381828738687,0,Low
+merchant_00282,Merchant_282,Grocery Store,City_48,State_38,59.91880603935449,1,Low
+merchant_00283,Merchant_283,Pharmacy,City_58,State_42,289.77298888145066,0,Medium
+merchant_00284,Merchant_284,Department Store,City_38,State_7,31.42274606260372,0,Low
+merchant_00285,Merchant_285,Gas Station,City_80,State_7,75.14727683210754,1,Medium
+merchant_00286,Merchant_286,Clothing,City_69,State_16,32.53089042890969,0,High
+merchant_00287,Merchant_287,Electronics,City_79,State_36,113.53864883498395,0,Low
+merchant_00288,Merchant_288,ATM,City_28,State_19,44.73692643636445,1,Low
+merchant_00289,Merchant_289,Pharmacy,City_5,State_12,81.35095384024407,0,Low
+merchant_00290,Merchant_290,Electronics,City_4,State_14,6.043749404009196,0,Low
+merchant_00291,Merchant_291,Grocery Store,City_1,State_47,20.625962443026612,0,Low
+merchant_00292,Merchant_292,Department Store,City_75,State_34,192.97349577962456,1,Low
+merchant_00293,Merchant_293,Pharmacy,City_86,State_10,51.207209695774495,0,Low
+merchant_00294,Merchant_294,Restaurant,City_97,State_3,48.196963462056964,0,Low
+merchant_00295,Merchant_295,Online Retail,City_48,State_37,90.87337464522494,1,Low
+merchant_00296,Merchant_296,Gas Station,City_38,State_28,116.44509798229674,0,Medium
+merchant_00297,Merchant_297,Restaurant,City_20,State_40,33.35824773840047,0,Low
+merchant_00298,Merchant_298,Entertainment,City_75,State_1,22.39481504989373,0,Medium
+merchant_00299,Merchant_299,ATM,City_68,State_42,58.63088382119312,1,Low
+merchant_00300,Merchant_300,Department Store,City_35,State_7,192.18553645773596,0,Low
+merchant_00301,Merchant_301,Online Retail,City_53,State_20,26.559583334980513,0,Low
+merchant_00302,Merchant_302,Hotel,City_55,State_46,35.00220771406936,0,Low
+merchant_00303,Merchant_303,Pharmacy,City_40,State_14,80.19230910396863,3,Low
+merchant_00304,Merchant_304,Entertainment,City_79,State_2,155.73131628256849,0,Medium
+merchant_00305,Merchant_305,Restaurant,City_37,State_31,79.36651390083824,1,Low
+merchant_00306,Merchant_306,Pharmacy,City_86,State_6,63.075979360163316,0,Low
+merchant_00307,Merchant_307,Entertainment,City_80,State_49,224.35781737029706,0,Low
+merchant_00308,Merchant_308,Electronics,City_74,State_42,49.70390688235047,0,Low
+merchant_00309,Merchant_309,Hotel,City_82,State_1,30.42611938567564,1,Low
+merchant_00310,Merchant_310,Airline,City_32,State_34,8.37720500276098,0,Low
+merchant_00311,Merchant_311,Electronics,City_28,State_19,128.8874080902874,1,Low
+merchant_00312,Merchant_312,Pharmacy,City_85,State_36,76.33076674726802,2,High
+merchant_00313,Merchant_313,Clothing,City_20,State_40,4.507955719720771,1,Low
+merchant_00314,Merchant_314,Airline,City_98,State_6,81.08656388609182,0,Low
+merchant_00315,Merchant_315,Pharmacy,City_51,State_48,145.75605922609182,0,Medium
+merchant_00316,Merchant_316,Clothing,City_80,State_11,40.792245482686965,2,Low
+merchant_00317,Merchant_317,Entertainment,City_89,State_42,158.75311874457694,0,Low
+merchant_00318,Merchant_318,Electronics,City_22,State_9,19.829114960732507,0,Low
+merchant_00319,Merchant_319,Clothing,City_9,State_42,20.607118266033954,0,Low
+merchant_00320,Merchant_320,Entertainment,City_42,State_15,71.80975323448013,1,Medium
+merchant_00321,Merchant_321,Online Retail,City_23,State_43,374.7398802647064,0,Low
+merchant_00322,Merchant_322,Clothing,City_27,State_30,31.145746255373023,1,Medium
+merchant_00323,Merchant_323,Restaurant,City_66,State_40,25.28819854160794,2,Low
+merchant_00324,Merchant_324,Grocery Store,City_98,State_16,26.2836448534981,0,Low
+merchant_00325,Merchant_325,Airline,City_24,State_7,62.73858930597713,1,High
+merchant_00326,Merchant_326,ATM,City_26,State_39,264.3749467732426,1,Low
+merchant_00327,Merchant_327,Airline,City_98,State_21,28.302696234431664,0,Low
+merchant_00328,Merchant_328,Restaurant,City_67,State_40,244.8679774730301,0,High
+merchant_00329,Merchant_329,Restaurant,City_84,State_45,126.58107235892936,0,Low
+merchant_00330,Merchant_330,Pharmacy,City_15,State_11,313.5774732102688,0,Low
+merchant_00331,Merchant_331,Airline,City_61,State_23,257.106491663893,0,Low
+merchant_00332,Merchant_332,Restaurant,City_6,State_43,265.823881618218,0,Medium
+merchant_00333,Merchant_333,Grocery Store,City_35,State_35,201.44007310126239,0,Low
+merchant_00334,Merchant_334,Hotel,City_12,State_30,23.041485914566106,0,High
+merchant_00335,Merchant_335,Department Store,City_59,State_44,35.51738790423075,0,Low
+merchant_00336,Merchant_336,Department Store,City_44,State_24,545.4608844791524,0,Medium
+merchant_00337,Merchant_337,ATM,City_64,State_16,31.31118321134771,0,Low
+merchant_00338,Merchant_338,ATM,City_65,State_26,94.48528506209176,1,Low
+merchant_00339,Merchant_339,Online Retail,City_28,State_49,39.06780191349253,0,Low
+merchant_00340,Merchant_340,Entertainment,City_71,State_38,35.793491335666005,0,Low
+merchant_00341,Merchant_341,Gas Station,City_17,State_48,38.908603640650064,2,Low
+merchant_00342,Merchant_342,Grocery Store,City_98,State_21,56.14643996054606,1,Low
+merchant_00343,Merchant_343,Airline,City_96,State_38,17.89144760201405,1,Low
+merchant_00344,Merchant_344,Entertainment,City_92,State_38,21.348663153152728,1,Low
+merchant_00345,Merchant_345,Hotel,City_75,State_17,216.0681588941933,0,Medium
+merchant_00346,Merchant_346,Hotel,City_10,State_38,56.79684247505608,0,Low
+merchant_00347,Merchant_347,ATM,City_26,State_26,6.712718891103278,0,Low
+merchant_00348,Merchant_348,Grocery Store,City_43,State_44,32.96994701029159,2,High
+merchant_00349,Merchant_349,Gas Station,City_75,State_20,98.14017790379435,0,High
+merchant_00350,Merchant_350,ATM,City_30,State_44,33.31157762889581,1,Low
+merchant_00351,Merchant_351,Pharmacy,City_9,State_18,24.90035827760657,0,Low
+merchant_00352,Merchant_352,Online Retail,City_55,State_36,63.26555722146974,1,Low
+merchant_00353,Merchant_353,Clothing,City_43,State_31,90.11037100779028,0,Low
+merchant_00354,Merchant_354,Electronics,City_37,State_14,108.78750495129493,1,Low
+merchant_00355,Merchant_355,Restaurant,City_25,State_35,38.18606757550003,1,Medium
+merchant_00356,Merchant_356,Department Store,City_12,State_23,30.591106721168742,0,Low
+merchant_00357,Merchant_357,Grocery Store,City_46,State_34,179.8936030897841,1,Low
+merchant_00358,Merchant_358,ATM,City_16,State_10,50.76300346930204,0,Medium
+merchant_00359,Merchant_359,Entertainment,City_84,State_38,105.38881293516832,0,Low
+merchant_00360,Merchant_360,Restaurant,City_55,State_4,100.20427681278036,0,Low
+merchant_00361,Merchant_361,Pharmacy,City_57,State_28,25.173653872110847,1,Low
+merchant_00362,Merchant_362,Department Store,City_10,State_31,15.839502873262147,0,Medium
+merchant_00363,Merchant_363,Restaurant,City_79,State_13,32.1024573051513,0,Low
+merchant_00364,Merchant_364,Entertainment,City_97,State_25,4.912428914493006,0,Low
+merchant_00365,Merchant_365,Clothing,City_92,State_13,51.056810238285,0,Medium
+merchant_00366,Merchant_366,Restaurant,City_62,State_44,25.63297706109666,0,Medium
+merchant_00367,Merchant_367,Hotel,City_48,State_47,92.69760190008867,3,Low
+merchant_00368,Merchant_368,Grocery Store,City_75,State_26,107.15284697821131,0,Low
+merchant_00369,Merchant_369,Airline,City_3,State_22,45.214931839767566,0,Low
+merchant_00370,Merchant_370,Restaurant,City_75,State_8,13.758581083191666,2,Low
+merchant_00371,Merchant_371,Restaurant,City_1,State_41,45.621800644284995,0,Low
+merchant_00372,Merchant_372,Hotel,City_47,State_32,26.120673896917513,1,Medium
+merchant_00373,Merchant_373,Online Retail,City_44,State_31,34.38745571779577,1,Low
+merchant_00374,Merchant_374,Electronics,City_24,State_13,209.60016121585343,0,Low
+merchant_00375,Merchant_375,Pharmacy,City_37,State_25,17.111651328585197,1,Low
+merchant_00376,Merchant_376,Entertainment,City_49,State_21,187.6176511170704,1,Low
+merchant_00377,Merchant_377,Airline,City_14,State_19,191.24407245341519,1,Low
+merchant_00378,Merchant_378,Entertainment,City_7,State_49,48.429022549962646,1,Low
+merchant_00379,Merchant_379,Entertainment,City_22,State_14,63.644964954232975,0,Low
+merchant_00380,Merchant_380,Entertainment,City_69,State_33,55.86779762143115,0,Low
+merchant_00381,Merchant_381,Restaurant,City_49,State_12,52.68688944582863,1,Low
+merchant_00382,Merchant_382,Airline,City_16,State_37,52.33932307969624,0,Low
+merchant_00383,Merchant_383,Restaurant,City_11,State_33,6.7012701468822335,0,Low
+merchant_00384,Merchant_384,Pharmacy,City_74,State_26,46.340799706944736,0,Low
+merchant_00385,Merchant_385,Gas Station,City_17,State_37,55.409048665566324,0,Low
+merchant_00386,Merchant_386,Clothing,City_24,State_33,82.34202062417953,0,Medium
+merchant_00387,Merchant_387,Restaurant,City_37,State_27,24.170592271055163,2,Low
+merchant_00388,Merchant_388,Department Store,City_85,State_38,49.46937272211695,1,Low
+merchant_00389,Merchant_389,Gas Station,City_90,State_16,12.377314329361948,1,Low
+merchant_00390,Merchant_390,Restaurant,City_5,State_32,24.46553391594579,0,Low
+merchant_00391,Merchant_391,Entertainment,City_74,State_29,71.93990401141654,0,Low
+merchant_00392,Merchant_392,Grocery Store,City_4,State_38,48.012995768892964,0,High
+merchant_00393,Merchant_393,Gas Station,City_39,State_20,71.04626450943572,0,Low
+merchant_00394,Merchant_394,Airline,City_78,State_26,20.85767294915032,0,Low
+merchant_00395,Merchant_395,Hotel,City_23,State_37,14.315301419218978,0,Low
+merchant_00396,Merchant_396,Clothing,City_23,State_24,116.36142918124472,0,Low
+merchant_00397,Merchant_397,Online Retail,City_24,State_46,79.77276452113284,3,Low
+merchant_00398,Merchant_398,Restaurant,City_38,State_3,121.60219178120983,2,Low
+merchant_00399,Merchant_399,Entertainment,City_5,State_38,146.7807086962658,0,Low
+merchant_00400,Merchant_400,Gas Station,City_34,State_18,52.69289768621959,0,Low
+merchant_00401,Merchant_401,Entertainment,City_84,State_34,58.0536066278075,2,Low
+merchant_00402,Merchant_402,Pharmacy,City_83,State_9,25.408415652839352,0,Low
+merchant_00403,Merchant_403,Gas Station,City_26,State_33,5.679930496022685,0,Low
+merchant_00404,Merchant_404,Department Store,City_11,State_21,2.9023046918650426,0,Low
+merchant_00405,Merchant_405,Pharmacy,City_77,State_4,44.14184024569251,2,Low
+merchant_00406,Merchant_406,Pharmacy,City_31,State_23,102.90992030416028,0,Low
+merchant_00407,Merchant_407,Hotel,City_2,State_3,42.739118473125444,0,Low
+merchant_00408,Merchant_408,Entertainment,City_67,State_37,25.391632994553767,0,Low
+merchant_00409,Merchant_409,Gas Station,City_88,State_6,136.49281468177344,1,Low
+merchant_00410,Merchant_410,Clothing,City_11,State_1,31.208704596133096,3,Low
+merchant_00411,Merchant_411,ATM,City_26,State_6,59.22228153260591,0,Low
+merchant_00412,Merchant_412,Grocery Store,City_10,State_1,350.6165047033157,0,Medium
+merchant_00413,Merchant_413,Airline,City_71,State_5,55.321358201014576,0,Low
+merchant_00414,Merchant_414,Hotel,City_27,State_20,257.55923706869754,0,Low
+merchant_00415,Merchant_415,Department Store,City_83,State_6,55.092953384030984,0,Low
+merchant_00416,Merchant_416,Hotel,City_60,State_49,79.64179364950358,0,Low
+merchant_00417,Merchant_417,Airline,City_83,State_15,14.869778965268718,1,Low
+merchant_00418,Merchant_418,Hotel,City_32,State_8,14.00300996414782,0,Low
+merchant_00419,Merchant_419,ATM,City_4,State_39,487.8832231685517,1,High
+merchant_00420,Merchant_420,Online Retail,City_6,State_14,16.95705816409639,0,Low
+merchant_00421,Merchant_421,Electronics,City_91,State_23,159.27328588266414,0,Low
+merchant_00422,Merchant_422,Electronics,City_33,State_34,56.964360989629796,1,Low
+merchant_00423,Merchant_423,Pharmacy,City_77,State_13,223.3244907112716,0,Low
+merchant_00424,Merchant_424,Grocery Store,City_9,State_18,195.76291254043042,1,Low
+merchant_00425,Merchant_425,ATM,City_50,State_15,54.75125619408689,1,High
+merchant_00426,Merchant_426,Clothing,City_78,State_30,12.404178064648228,0,Low
+merchant_00427,Merchant_427,Entertainment,City_31,State_45,80.19251852235858,1,Medium
+merchant_00428,Merchant_428,Airline,City_67,State_25,44.90086248040533,0,Medium
+merchant_00429,Merchant_429,Grocery Store,City_66,State_8,12.812206767804158,3,Low
+merchant_00430,Merchant_430,Clothing,City_68,State_13,19.48550506057665,1,Low
+merchant_00431,Merchant_431,Hotel,City_60,State_38,17.818190966333834,1,Low
+merchant_00432,Merchant_432,Department Store,City_35,State_19,24.746285288933542,0,Low
+merchant_00433,Merchant_433,Hotel,City_6,State_35,55.85901010703498,1,Low
+merchant_00434,Merchant_434,Airline,City_40,State_7,116.02464040700414,2,Low
+merchant_00435,Merchant_435,Entertainment,City_12,State_37,195.93439835550265,0,Low
+merchant_00436,Merchant_436,Department Store,City_79,State_16,279.9661581478316,0,Low
+merchant_00437,Merchant_437,Gas Station,City_64,State_25,60.48254511844788,1,Low
+merchant_00438,Merchant_438,Department Store,City_9,State_14,48.651855301429954,0,Low
+merchant_00439,Merchant_439,Department Store,City_51,State_18,73.52455468139122,0,Low
+merchant_00440,Merchant_440,Gas Station,City_80,State_46,160.52170939905417,0,Low
+merchant_00441,Merchant_441,Grocery Store,City_87,State_35,30.65945254110751,0,Medium
+merchant_00442,Merchant_442,Restaurant,City_80,State_48,36.5731898648654,0,High
+merchant_00443,Merchant_443,Pharmacy,City_22,State_3,39.79166355715621,1,Low
+merchant_00444,Merchant_444,Restaurant,City_89,State_3,91.11860747773481,0,Low
+merchant_00445,Merchant_445,Online Retail,City_71,State_4,27.748977093536173,2,Low
+merchant_00446,Merchant_446,Airline,City_76,State_27,185.7920560228678,0,Low
+merchant_00447,Merchant_447,Pharmacy,City_53,State_1,28.4998698648472,1,Low
+merchant_00448,Merchant_448,Entertainment,City_84,State_35,117.61061553455907,0,Low
+merchant_00449,Merchant_449,Gas Station,City_30,State_24,15.98333062384326,0,Low
+merchant_00450,Merchant_450,Electronics,City_75,State_3,66.65052588748885,0,Low
+merchant_00451,Merchant_451,Airline,City_65,State_42,29.660047329295487,0,Low
+merchant_00452,Merchant_452,Restaurant,City_62,State_45,16.827513659703992,2,Medium
+merchant_00453,Merchant_453,Hotel,City_74,State_14,6.07014911679252,1,Medium
+merchant_00454,Merchant_454,Entertainment,City_99,State_39,85.09667976595816,0,Low
+merchant_00455,Merchant_455,Entertainment,City_69,State_4,35.79956386148913,0,Low
+merchant_00456,Merchant_456,Pharmacy,City_13,State_31,65.36979444871578,0,Low
+merchant_00457,Merchant_457,Pharmacy,City_44,State_22,27.73250587175084,0,Low
+merchant_00458,Merchant_458,Electronics,City_12,State_45,118.08526178926138,0,Low
+merchant_00459,Merchant_459,Clothing,City_64,State_41,21.15837544417054,0,Medium
+merchant_00460,Merchant_460,Online Retail,City_52,State_1,61.89397685875411,0,Low
+merchant_00461,Merchant_461,Hotel,City_64,State_47,45.744471604994835,0,Low
+merchant_00462,Merchant_462,Online Retail,City_56,State_3,32.01382854431186,0,Low
+merchant_00463,Merchant_463,Electronics,City_91,State_2,148.7190052108165,0,Low
+merchant_00464,Merchant_464,Entertainment,City_29,State_49,45.04511604195644,1,Medium
+merchant_00465,Merchant_465,Hotel,City_93,State_35,53.38654337848003,0,Medium
+merchant_00466,Merchant_466,Airline,City_38,State_30,82.91634167976287,1,Low
+merchant_00467,Merchant_467,Gas Station,City_29,State_14,63.57730250234242,0,Low
+merchant_00468,Merchant_468,Gas Station,City_79,State_17,73.61558315218193,1,High
+merchant_00469,Merchant_469,ATM,City_57,State_27,11.654015528299471,2,Low
+merchant_00470,Merchant_470,Hotel,City_63,State_15,33.39941402969488,0,High
+merchant_00471,Merchant_471,Gas Station,City_84,State_22,6.6586716171987534,0,Low
+merchant_00472,Merchant_472,Airline,City_54,State_28,75.10935853794646,0,Low
+merchant_00473,Merchant_473,Gas Station,City_48,State_43,150.27103361446427,0,Low
+merchant_00474,Merchant_474,Restaurant,City_95,State_28,345.0112264655592,1,Low
+merchant_00475,Merchant_475,Pharmacy,City_40,State_4,41.769068926009155,0,Low
+merchant_00476,Merchant_476,ATM,City_63,State_3,69.36519810069859,1,Medium
+merchant_00477,Merchant_477,Department Store,City_20,State_38,37.944255991543294,0,Low
+merchant_00478,Merchant_478,Clothing,City_5,State_32,68.33847795760582,0,Low
+merchant_00479,Merchant_479,Electronics,City_6,State_49,41.078145304588425,2,Low
+merchant_00480,Merchant_480,Hotel,City_65,State_32,143.4345406223981,0,Low
+merchant_00481,Merchant_481,Airline,City_1,State_32,39.42013501476179,0,Low
+merchant_00482,Merchant_482,Grocery Store,City_38,State_36,12.072668992617924,1,Low
+merchant_00483,Merchant_483,Pharmacy,City_85,State_35,94.44242606503825,1,Low
+merchant_00484,Merchant_484,Restaurant,City_41,State_44,38.48616994764831,1,Low
+merchant_00485,Merchant_485,Gas Station,City_28,State_24,33.144756850832195,0,Low
+merchant_00486,Merchant_486,Department Store,City_84,State_4,56.08353132000307,0,Low
+merchant_00487,Merchant_487,Gas Station,City_51,State_46,41.4707818545716,1,Low
+merchant_00488,Merchant_488,Online Retail,City_92,State_36,21.295967942308998,0,Low
+merchant_00489,Merchant_489,Airline,City_75,State_46,6.589202817328128,0,Low
+merchant_00490,Merchant_490,Hotel,City_43,State_39,53.861432255721496,0,Low
+merchant_00491,Merchant_491,Hotel,City_9,State_18,54.00114891653257,1,Medium
+merchant_00492,Merchant_492,Department Store,City_73,State_47,33.793631762217025,0,High
+merchant_00493,Merchant_493,Clothing,City_81,State_20,289.0974026990306,0,Low
+merchant_00494,Merchant_494,Hotel,City_59,State_18,68.06606953666994,0,Low
+merchant_00495,Merchant_495,Pharmacy,City_25,State_43,187.7293270490848,1,Low
+merchant_00496,Merchant_496,Entertainment,City_6,State_46,14.46310391603502,0,Low
+merchant_00497,Merchant_497,Grocery Store,City_74,State_1,3.7726154756387564,0,Low
+merchant_00498,Merchant_498,Online Retail,City_4,State_34,117.38314475406757,0,Low
+merchant_00499,Merchant_499,Grocery Store,City_61,State_9,153.54187711379316,1,Low
+merchant_00500,Merchant_500,Electronics,City_19,State_1,21.917599637583535,2,Low
+merchant_00501,Merchant_501,Entertainment,City_4,State_6,285.1486482139734,1,Low
+merchant_00502,Merchant_502,Grocery Store,City_37,State_40,25.346708185989804,0,Low
+merchant_00503,Merchant_503,Airline,City_54,State_20,42.23512931367831,0,Low
+merchant_00504,Merchant_504,Department Store,City_22,State_27,61.81934384106642,0,Low
+merchant_00505,Merchant_505,Online Retail,City_50,State_23,39.70097549249254,1,Low
+merchant_00506,Merchant_506,Airline,City_57,State_12,15.092679506779438,0,Low
+merchant_00507,Merchant_507,Gas Station,City_99,State_2,159.07756574563714,0,Medium
+merchant_00508,Merchant_508,Grocery Store,City_78,State_37,55.39567019894825,0,Low
+merchant_00509,Merchant_509,Clothing,City_73,State_29,55.864957164623995,1,Low
+merchant_00510,Merchant_510,Department Store,City_35,State_32,58.59913180480011,0,Low
+merchant_00511,Merchant_511,Grocery Store,City_84,State_1,162.29274119610986,1,Low
+merchant_00512,Merchant_512,Airline,City_25,State_10,164.94173740818744,0,Low
+merchant_00513,Merchant_513,Clothing,City_36,State_25,9.27306694846772,0,High
+merchant_00514,Merchant_514,Electronics,City_18,State_38,128.09421901904122,1,Low
+merchant_00515,Merchant_515,Airline,City_46,State_43,96.95299089385527,0,Low
+merchant_00516,Merchant_516,Electronics,City_76,State_33,234.55453868300745,0,Low
+merchant_00517,Merchant_517,Grocery Store,City_67,State_35,7.598110219910792,0,Medium
+merchant_00518,Merchant_518,Restaurant,City_95,State_40,112.87902652936887,1,Low
+merchant_00519,Merchant_519,Clothing,City_37,State_38,100.61563978346155,0,Low
+merchant_00520,Merchant_520,Clothing,City_5,State_34,112.30118798277273,2,Low
+merchant_00521,Merchant_521,Grocery Store,City_96,State_49,84.55934656074317,0,Low
+merchant_00522,Merchant_522,ATM,City_44,State_27,126.65968057043578,0,Low
+merchant_00523,Merchant_523,Grocery Store,City_30,State_11,38.474318283848234,3,Medium
+merchant_00524,Merchant_524,Gas Station,City_22,State_48,101.67421548362351,0,Medium
+merchant_00525,Merchant_525,Hotel,City_65,State_41,219.9679208138733,0,High
+merchant_00526,Merchant_526,Hotel,City_3,State_37,27.72801316861783,0,Low
+merchant_00527,Merchant_527,Clothing,City_45,State_48,12.810701374361713,1,Low
+merchant_00528,Merchant_528,Pharmacy,City_98,State_17,29.993828790671373,1,Low
+merchant_00529,Merchant_529,Restaurant,City_58,State_32,27.793252529679748,0,Medium
+merchant_00530,Merchant_530,Gas Station,City_31,State_36,225.33275313939725,1,Low
+merchant_00531,Merchant_531,Pharmacy,City_91,State_15,8.258608212939363,2,High
+merchant_00532,Merchant_532,Airline,City_33,State_3,44.69992713311598,0,Low
+merchant_00533,Merchant_533,Pharmacy,City_25,State_16,449.74614575509474,1,Low
+merchant_00534,Merchant_534,Grocery Store,City_9,State_20,61.80791431117063,0,Low
+merchant_00535,Merchant_535,ATM,City_66,State_1,44.07414756295935,0,Low
+merchant_00536,Merchant_536,Airline,City_23,State_8,15.033076209598443,0,Low
+merchant_00537,Merchant_537,Department Store,City_98,State_37,407.18944001431765,0,Low
+merchant_00538,Merchant_538,Department Store,City_57,State_19,32.28012850202497,0,Low
+merchant_00539,Merchant_539,Airline,City_96,State_47,47.639565622222676,0,Low
+merchant_00540,Merchant_540,Hotel,City_40,State_9,23.197999992088082,2,Low
+merchant_00541,Merchant_541,Department Store,City_28,State_39,31.07770791913087,0,Low
+merchant_00542,Merchant_542,Clothing,City_32,State_6,44.02236786960483,0,Low
+merchant_00543,Merchant_543,Airline,City_7,State_22,78.17288551008902,0,Low
+merchant_00544,Merchant_544,Gas Station,City_69,State_1,40.09125580817008,1,Low
+merchant_00545,Merchant_545,Online Retail,City_18,State_49,15.678503221746187,1,Low
+merchant_00546,Merchant_546,Clothing,City_51,State_21,42.47227481543058,0,Low
+merchant_00547,Merchant_547,Pharmacy,City_72,State_12,4.130839766614706,0,Low
+merchant_00548,Merchant_548,Restaurant,City_1,State_14,78.88652647896836,0,Low
+merchant_00549,Merchant_549,Hotel,City_53,State_36,52.04041544490533,0,Low
+merchant_00550,Merchant_550,Gas Station,City_2,State_1,70.65830615952837,0,Low
+merchant_00551,Merchant_551,Airline,City_2,State_9,31.470985341901226,1,Low
+merchant_00552,Merchant_552,Entertainment,City_54,State_32,40.11210451462706,0,Low
+merchant_00553,Merchant_553,Hotel,City_54,State_9,29.171626170649873,1,Low
+merchant_00554,Merchant_554,Electronics,City_38,State_21,397.91369414203,0,Medium
+merchant_00555,Merchant_555,Hotel,City_39,State_9,3.323978028587784,0,Low
+merchant_00556,Merchant_556,Grocery Store,City_95,State_24,76.2970297505094,0,Medium
+merchant_00557,Merchant_557,Gas Station,City_69,State_33,42.621503643960004,1,Low
+merchant_00558,Merchant_558,Pharmacy,City_10,State_22,7.277950042248126,4,High
+merchant_00559,Merchant_559,Restaurant,City_51,State_12,186.02052792075685,0,Low
+merchant_00560,Merchant_560,Electronics,City_24,State_1,24.222112299335503,0,Low
+merchant_00561,Merchant_561,Entertainment,City_86,State_22,130.44636218634054,0,Medium
+merchant_00562,Merchant_562,Entertainment,City_54,State_14,69.95398479605768,1,Low
+merchant_00563,Merchant_563,Gas Station,City_59,State_3,145.461375509344,1,Low
+merchant_00564,Merchant_564,Electronics,City_30,State_16,57.495958072438974,0,Low
+merchant_00565,Merchant_565,Online Retail,City_60,State_40,105.26442137395652,0,Medium
+merchant_00566,Merchant_566,Restaurant,City_78,State_17,17.011825504021573,2,High
+merchant_00567,Merchant_567,Department Store,City_7,State_18,104.2952783779658,0,Low
+merchant_00568,Merchant_568,ATM,City_47,State_4,42.5659274786976,1,Low
+merchant_00569,Merchant_569,Restaurant,City_29,State_29,40.778761740001826,1,Low
+merchant_00570,Merchant_570,Gas Station,City_57,State_5,42.21756493694458,0,High
+merchant_00571,Merchant_571,Hotel,City_3,State_30,234.80920490649768,1,Medium
+merchant_00572,Merchant_572,Gas Station,City_44,State_2,208.40330322059884,0,Low
+merchant_00573,Merchant_573,Entertainment,City_35,State_1,294.36914733666345,1,High
+merchant_00574,Merchant_574,Entertainment,City_39,State_29,97.41819818927182,1,Low
+merchant_00575,Merchant_575,Airline,City_57,State_30,63.208463132639075,2,Low
+merchant_00576,Merchant_576,Hotel,City_45,State_31,159.20076792249037,1,High
+merchant_00577,Merchant_577,Hotel,City_41,State_2,23.971402447898356,1,Low
+merchant_00578,Merchant_578,Grocery Store,City_32,State_20,22.102223405223693,0,Low
+merchant_00579,Merchant_579,Department Store,City_4,State_12,133.1672220842769,0,Low
+merchant_00580,Merchant_580,Department Store,City_57,State_9,26.863553925956435,1,Low
+merchant_00581,Merchant_581,ATM,City_62,State_23,24.026697979222643,0,Low
+merchant_00582,Merchant_582,Department Store,City_31,State_32,137.82054972034487,1,Low
+merchant_00583,Merchant_583,Hotel,City_90,State_13,14.409666585900323,0,Low
+merchant_00584,Merchant_584,Clothing,City_99,State_6,68.84160146379213,0,Low
+merchant_00585,Merchant_585,Online Retail,City_87,State_22,63.33619635551911,0,Low
+merchant_00586,Merchant_586,Pharmacy,City_2,State_8,43.94740743174331,0,Low
+merchant_00587,Merchant_587,Restaurant,City_78,State_49,71.61070247896595,1,High
+merchant_00588,Merchant_588,Grocery Store,City_7,State_46,20.804704541024762,1,High
+merchant_00589,Merchant_589,Pharmacy,City_37,State_20,3.8227074068192035,0,Medium
+merchant_00590,Merchant_590,Online Retail,City_37,State_14,50.65704134170925,0,Low
+merchant_00591,Merchant_591,Airline,City_10,State_28,40.27089581359398,1,Low
+merchant_00592,Merchant_592,Clothing,City_4,State_34,80.75696513689147,0,Low
+merchant_00593,Merchant_593,Electronics,City_15,State_23,126.6623677028194,0,Low
+merchant_00594,Merchant_594,Entertainment,City_77,State_29,127.36663971795473,1,Low
+merchant_00595,Merchant_595,Department Store,City_82,State_19,29.708049416849722,0,Low
+merchant_00596,Merchant_596,Restaurant,City_43,State_33,91.45410233837192,1,Low
+merchant_00597,Merchant_597,Gas Station,City_13,State_28,58.91629692916589,3,Medium
+merchant_00598,Merchant_598,Airline,City_53,State_48,72.51317821429306,0,Medium
+merchant_00599,Merchant_599,Grocery Store,City_8,State_40,35.42623864771128,0,Medium
+merchant_00600,Merchant_600,Entertainment,City_58,State_40,120.55898298675719,1,Low
+merchant_00601,Merchant_601,Restaurant,City_43,State_18,19.5826670299765,1,Low
+merchant_00602,Merchant_602,Airline,City_94,State_26,488.11217858823454,1,Low
+merchant_00603,Merchant_603,Restaurant,City_15,State_6,86.18755784124497,0,Low
+merchant_00604,Merchant_604,Electronics,City_76,State_17,84.28871328967286,0,Low
+merchant_00605,Merchant_605,Gas Station,City_7,State_30,342.7316202121467,0,Low
+merchant_00606,Merchant_606,Online Retail,City_49,State_44,41.884550725200434,1,Low
+merchant_00607,Merchant_607,ATM,City_89,State_6,16.113767412474175,0,Medium
+merchant_00608,Merchant_608,Gas Station,City_86,State_7,46.13344093379919,2,Low
+merchant_00609,Merchant_609,Hotel,City_67,State_34,17.177691342613095,0,Low
+merchant_00610,Merchant_610,Clothing,City_48,State_9,52.763662585864516,1,Low
+merchant_00611,Merchant_611,Grocery Store,City_74,State_1,52.831768038333344,0,High
+merchant_00612,Merchant_612,Department Store,City_15,State_19,57.627346629810866,1,Low
+merchant_00613,Merchant_613,Clothing,City_80,State_18,219.43935507360706,0,Low
+merchant_00614,Merchant_614,Grocery Store,City_53,State_25,186.0600628192335,0,Low
+merchant_00615,Merchant_615,Department Store,City_39,State_43,32.891725797037545,0,Low
+merchant_00616,Merchant_616,Restaurant,City_17,State_1,98.35739499063617,0,Low
+merchant_00617,Merchant_617,Clothing,City_11,State_39,18.799286761036466,0,High
+merchant_00618,Merchant_618,Online Retail,City_35,State_26,11.195035946912595,2,Medium
+merchant_00619,Merchant_619,Grocery Store,City_23,State_4,9.900392527426439,0,Low
+merchant_00620,Merchant_620,Gas Station,City_88,State_37,111.30813534582624,0,Low
+merchant_00621,Merchant_621,Online Retail,City_22,State_4,134.09992631310996,1,Low
+merchant_00622,Merchant_622,Pharmacy,City_82,State_36,97.23932289780603,0,Low
+merchant_00623,Merchant_623,Department Store,City_52,State_20,18.01329440687291,0,Low
+merchant_00624,Merchant_624,Electronics,City_26,State_11,37.632483231315234,2,Low
+merchant_00625,Merchant_625,Restaurant,City_22,State_3,9.653274865303674,0,Low
+merchant_00626,Merchant_626,Airline,City_28,State_13,97.7621177040525,0,Medium
+merchant_00627,Merchant_627,Airline,City_49,State_36,27.229300633350313,2,Low
+merchant_00628,Merchant_628,Pharmacy,City_10,State_32,78.08065721836114,0,Low
+merchant_00629,Merchant_629,Clothing,City_41,State_31,62.2880999379402,0,Low
+merchant_00630,Merchant_630,Pharmacy,City_49,State_29,8.42761431901894,0,Low
+merchant_00631,Merchant_631,Electronics,City_8,State_33,187.83864754181528,0,Medium
+merchant_00632,Merchant_632,Electronics,City_28,State_32,32.78797242772613,0,Low
+merchant_00633,Merchant_633,Entertainment,City_88,State_39,27.63461359389247,1,Low
+merchant_00634,Merchant_634,ATM,City_76,State_48,75.64501596053071,2,Low
+merchant_00635,Merchant_635,ATM,City_56,State_9,48.24600342928925,2,Low
+merchant_00636,Merchant_636,Pharmacy,City_81,State_2,142.75998347555515,0,Low
+merchant_00637,Merchant_637,Electronics,City_54,State_32,111.79414409830598,0,Low
+merchant_00638,Merchant_638,Online Retail,City_85,State_18,28.260381299267728,0,Medium
+merchant_00639,Merchant_639,ATM,City_47,State_19,236.96801182640496,1,Low
+merchant_00640,Merchant_640,Hotel,City_23,State_30,51.74333565098803,0,Low
+merchant_00641,Merchant_641,Clothing,City_49,State_3,28.829562994802448,1,Medium
+merchant_00642,Merchant_642,ATM,City_98,State_13,9.749202915478627,2,Low
+merchant_00643,Merchant_643,Grocery Store,City_8,State_2,193.4919904326998,1,Low
+merchant_00644,Merchant_644,Hotel,City_75,State_26,20.901257236010444,2,Medium
+merchant_00645,Merchant_645,ATM,City_49,State_17,32.92600265689079,0,Low
+merchant_00646,Merchant_646,Clothing,City_13,State_13,14.72455606326339,0,Low
+merchant_00647,Merchant_647,Grocery Store,City_94,State_15,6.716126719286193,1,High
+merchant_00648,Merchant_648,Online Retail,City_75,State_33,47.61788194434937,0,Low
+merchant_00649,Merchant_649,Hotel,City_2,State_37,22.893348944084597,1,Low
+merchant_00650,Merchant_650,ATM,City_45,State_9,32.70252396765118,1,Low
+merchant_00651,Merchant_651,Entertainment,City_45,State_36,65.36427253153055,0,Medium
+merchant_00652,Merchant_652,Restaurant,City_31,State_40,30.378692389631837,0,Low
+merchant_00653,Merchant_653,Restaurant,City_79,State_14,13.205593379377607,0,Medium
+merchant_00654,Merchant_654,ATM,City_73,State_31,12.191179939414518,0,Low
+merchant_00655,Merchant_655,Entertainment,City_62,State_31,25.842582789982348,1,Medium
+merchant_00656,Merchant_656,Electronics,City_65,State_39,20.222159146078685,0,Low
+merchant_00657,Merchant_657,Clothing,City_27,State_37,44.967597684255516,1,Low
+merchant_00658,Merchant_658,Gas Station,City_31,State_16,9.621943190961426,1,Medium
+merchant_00659,Merchant_659,Online Retail,City_95,State_18,36.004069367414786,0,Low
+merchant_00660,Merchant_660,Electronics,City_25,State_41,50.20992583623768,2,Low
+merchant_00661,Merchant_661,ATM,City_7,State_46,49.0361587310161,0,Low
+merchant_00662,Merchant_662,Clothing,City_57,State_19,58.144504956109174,0,Low
+merchant_00663,Merchant_663,Airline,City_15,State_13,91.37718688880122,1,Low
+merchant_00664,Merchant_664,Hotel,City_24,State_33,148.39988482007212,0,Low
+merchant_00665,Merchant_665,Restaurant,City_43,State_37,43.3334839022999,2,Low
+merchant_00666,Merchant_666,Pharmacy,City_65,State_11,19.333515692251986,0,Low
+merchant_00667,Merchant_667,Airline,City_99,State_28,127.83311263239554,0,Low
+merchant_00668,Merchant_668,Entertainment,City_29,State_43,43.44255557738621,0,High
+merchant_00669,Merchant_669,Clothing,City_36,State_35,95.94062343499726,1,Low
+merchant_00670,Merchant_670,Grocery Store,City_49,State_19,336.4205732258252,0,Low
+merchant_00671,Merchant_671,Pharmacy,City_71,State_36,17.13225197359985,1,Low
+merchant_00672,Merchant_672,Airline,City_86,State_13,68.92417280400429,1,Medium
+merchant_00673,Merchant_673,Department Store,City_27,State_11,43.44115315155731,1,Low
+merchant_00674,Merchant_674,Clothing,City_39,State_8,29.09290434345284,0,Low
+merchant_00675,Merchant_675,ATM,City_67,State_33,22.142221406676644,0,Low
+merchant_00676,Merchant_676,Grocery Store,City_88,State_48,22.703941136351315,1,Medium
+merchant_00677,Merchant_677,Online Retail,City_20,State_8,99.37846473563822,0,Low
+merchant_00678,Merchant_678,Electronics,City_84,State_28,169.4952583010749,0,Low
+merchant_00679,Merchant_679,Airline,City_24,State_3,133.57771949412896,0,Medium
+merchant_00680,Merchant_680,Entertainment,City_88,State_16,14.594594761065334,2,Low
+merchant_00681,Merchant_681,Entertainment,City_50,State_17,143.69409232514,0,Low
+merchant_00682,Merchant_682,Grocery Store,City_88,State_13,98.65950755148282,0,Low
+merchant_00683,Merchant_683,Online Retail,City_54,State_29,148.4795113321049,0,Low
+merchant_00684,Merchant_684,Gas Station,City_99,State_36,261.9326482531664,0,Low
+merchant_00685,Merchant_685,Online Retail,City_99,State_36,16.08847254890616,0,Low
+merchant_00686,Merchant_686,Restaurant,City_19,State_27,35.55612608060907,0,Low
+merchant_00687,Merchant_687,Restaurant,City_45,State_39,55.720904275973446,0,Medium
+merchant_00688,Merchant_688,ATM,City_8,State_38,30.486799043554804,3,Low
+merchant_00689,Merchant_689,Grocery Store,City_25,State_18,17.4325130928828,0,Medium
+merchant_00690,Merchant_690,Pharmacy,City_49,State_14,14.089896768177033,0,Low
+merchant_00691,Merchant_691,Department Store,City_38,State_34,24.43884788598934,0,Low
+merchant_00692,Merchant_692,Gas Station,City_70,State_7,70.24553186870958,0,Low
+merchant_00693,Merchant_693,Entertainment,City_88,State_5,32.04993598423813,2,Low
+merchant_00694,Merchant_694,Airline,City_45,State_32,12.763669136620143,0,Low
+merchant_00695,Merchant_695,Online Retail,City_20,State_17,45.47050689577145,1,Low
+merchant_00696,Merchant_696,Gas Station,City_58,State_28,169.89420707959786,0,Low
+merchant_00697,Merchant_697,Clothing,City_9,State_16,73.60596513634407,0,Low
+merchant_00698,Merchant_698,Hotel,City_67,State_36,30.05796722852707,0,Low
+merchant_00699,Merchant_699,Entertainment,City_57,State_38,43.93284115618894,2,Low
+merchant_00700,Merchant_700,ATM,City_93,State_19,43.93384090104019,0,Low
+merchant_00701,Merchant_701,Electronics,City_99,State_14,13.05483394584023,2,Low
+merchant_00702,Merchant_702,Airline,City_86,State_22,56.04531632210129,1,Low
+merchant_00703,Merchant_703,Grocery Store,City_31,State_25,25.643090585002035,1,Low
+merchant_00704,Merchant_704,Gas Station,City_50,State_42,245.31678044273116,0,Low
+merchant_00705,Merchant_705,Pharmacy,City_75,State_43,41.44794117040044,0,Low
+merchant_00706,Merchant_706,Hotel,City_92,State_29,17.684882930895593,1,Low
+merchant_00707,Merchant_707,ATM,City_41,State_29,220.15164111539676,2,Medium
+merchant_00708,Merchant_708,Grocery Store,City_86,State_37,134.94548302229572,0,Medium
+merchant_00709,Merchant_709,Gas Station,City_23,State_14,147.63264865280797,2,Low
+merchant_00710,Merchant_710,Grocery Store,City_45,State_47,64.12210056357772,0,Low
+merchant_00711,Merchant_711,Electronics,City_58,State_27,254.73308631356014,0,Low
+merchant_00712,Merchant_712,Electronics,City_23,State_41,109.10751873031408,0,Low
+merchant_00713,Merchant_713,Online Retail,City_30,State_48,74.45095100687564,0,Low
+merchant_00714,Merchant_714,ATM,City_11,State_16,40.129111767529636,0,Low
+merchant_00715,Merchant_715,Entertainment,City_98,State_32,247.3667535630592,1,Low
+merchant_00716,Merchant_716,Electronics,City_9,State_44,17.289131981944283,0,Medium
+merchant_00717,Merchant_717,Grocery Store,City_45,State_40,125.54156570460701,1,Low
+merchant_00718,Merchant_718,Clothing,City_33,State_38,52.53988456931981,0,Low
+merchant_00719,Merchant_719,Gas Station,City_18,State_34,101.72116900253283,0,Low
+merchant_00720,Merchant_720,Pharmacy,City_92,State_31,136.3339630794178,0,Low
+merchant_00721,Merchant_721,Grocery Store,City_50,State_46,36.174994769566055,0,Low
+merchant_00722,Merchant_722,Clothing,City_51,State_45,46.714707612240154,0,Low
+merchant_00723,Merchant_723,Airline,City_59,State_34,86.18794784502577,0,Low
+merchant_00724,Merchant_724,Restaurant,City_32,State_1,71.24056852576723,1,Low
+merchant_00725,Merchant_725,Clothing,City_69,State_17,11.509624329761188,1,Low
+merchant_00726,Merchant_726,Department Store,City_69,State_44,42.94497962535114,0,Low
+merchant_00727,Merchant_727,ATM,City_4,State_25,69.69944196440233,0,Low
+merchant_00728,Merchant_728,Electronics,City_52,State_28,189.3612882611241,2,Low
+merchant_00729,Merchant_729,Electronics,City_12,State_35,60.82223296812473,0,Low
+merchant_00730,Merchant_730,Department Store,City_41,State_30,25.145230835344066,1,Low
+merchant_00731,Merchant_731,Clothing,City_82,State_47,84.54004937156093,0,Low
+merchant_00732,Merchant_732,Pharmacy,City_26,State_24,47.17186321516039,0,Low
+merchant_00733,Merchant_733,ATM,City_6,State_25,23.216484267839867,1,Low
+merchant_00734,Merchant_734,Airline,City_21,State_13,140.11103350458907,1,Low
+merchant_00735,Merchant_735,Restaurant,City_58,State_1,62.99971598149469,0,Low
+merchant_00736,Merchant_736,Entertainment,City_94,State_4,363.3687271762847,0,Low
+merchant_00737,Merchant_737,Pharmacy,City_49,State_44,26.946630225554845,0,Low
+merchant_00738,Merchant_738,Online Retail,City_55,State_3,17.842958188010723,0,Medium
+merchant_00739,Merchant_739,Airline,City_74,State_43,45.42413311818521,1,High
+merchant_00740,Merchant_740,Electronics,City_27,State_28,27.243627562110145,0,Low
+merchant_00741,Merchant_741,Department Store,City_16,State_44,114.49432840977539,1,Low
+merchant_00742,Merchant_742,Entertainment,City_8,State_40,12.004797127688402,1,Low
+merchant_00743,Merchant_743,Restaurant,City_9,State_2,30.192213763147638,0,Low
+merchant_00744,Merchant_744,ATM,City_14,State_22,23.567513854996022,0,Low
+merchant_00745,Merchant_745,Online Retail,City_43,State_1,28.415165980153944,0,Low
+merchant_00746,Merchant_746,Clothing,City_50,State_29,16.55702115487462,0,Low
+merchant_00747,Merchant_747,Gas Station,City_79,State_24,81.00084687928143,0,Low
+merchant_00748,Merchant_748,Airline,City_9,State_3,62.508115141521316,0,Low
+merchant_00749,Merchant_749,Airline,City_94,State_40,190.31358311429287,0,Low
+merchant_00750,Merchant_750,Hotel,City_45,State_19,42.27346250671609,0,Low
+merchant_00751,Merchant_751,Airline,City_77,State_22,57.67925095528517,0,Low
+merchant_00752,Merchant_752,ATM,City_72,State_31,13.397807027279272,0,Low
+merchant_00753,Merchant_753,Grocery Store,City_54,State_46,99.78925713825932,1,Medium
+merchant_00754,Merchant_754,Airline,City_47,State_30,17.11757313819174,1,Low
+merchant_00755,Merchant_755,Pharmacy,City_17,State_34,90.27059536150892,1,Low
+merchant_00756,Merchant_756,Hotel,City_16,State_37,33.029134838782845,1,Low
+merchant_00757,Merchant_757,Grocery Store,City_57,State_1,200.32569046754804,0,Low
+merchant_00758,Merchant_758,ATM,City_69,State_27,54.79280351683059,0,Low
+merchant_00759,Merchant_759,Pharmacy,City_25,State_24,116.70105888242085,0,Low
+merchant_00760,Merchant_760,Entertainment,City_12,State_3,5.863472369105682,1,Low
+merchant_00761,Merchant_761,Online Retail,City_19,State_16,27.05863215162085,2,Low
+merchant_00762,Merchant_762,ATM,City_91,State_43,110.03392549807714,0,Low
+merchant_00763,Merchant_763,Airline,City_89,State_29,18.875570819106674,0,Low
+merchant_00764,Merchant_764,Pharmacy,City_68,State_42,49.40485880678308,0,Low
+merchant_00765,Merchant_765,Department Store,City_18,State_24,25.2506666042046,1,Low
+merchant_00766,Merchant_766,Restaurant,City_25,State_45,15.062515663097567,1,Low
+merchant_00767,Merchant_767,Gas Station,City_89,State_15,115.19102710546726,1,Low
+merchant_00768,Merchant_768,Clothing,City_12,State_42,58.0726539182699,1,Low
+merchant_00769,Merchant_769,Hotel,City_88,State_7,71.09668760239776,0,Medium
+merchant_00770,Merchant_770,ATM,City_47,State_30,84.49841635841042,1,Low
+merchant_00771,Merchant_771,ATM,City_57,State_40,781.1124145203889,0,Low
+merchant_00772,Merchant_772,Pharmacy,City_47,State_49,445.23979629351675,0,Low
+merchant_00773,Merchant_773,Online Retail,City_61,State_36,38.155321724494314,1,Medium
+merchant_00774,Merchant_774,Grocery Store,City_66,State_35,5.87459853491669,0,Medium
+merchant_00775,Merchant_775,Department Store,City_84,State_30,161.13979714632436,0,Low
+merchant_00776,Merchant_776,Hotel,City_9,State_26,191.53416362950767,0,Low
+merchant_00777,Merchant_777,Clothing,City_5,State_25,99.63107580543668,1,Low
+merchant_00778,Merchant_778,Restaurant,City_35,State_16,47.866163489562226,0,Low
+merchant_00779,Merchant_779,ATM,City_45,State_12,15.38887623726553,0,Low
+merchant_00780,Merchant_780,Department Store,City_83,State_32,28.704759475460655,1,Medium
+merchant_00781,Merchant_781,Restaurant,City_19,State_21,46.29783087780472,0,Low
+merchant_00782,Merchant_782,Pharmacy,City_41,State_45,75.99101685061692,0,Low
+merchant_00783,Merchant_783,Hotel,City_74,State_2,356.8777570229521,0,Medium
+merchant_00784,Merchant_784,Clothing,City_81,State_8,107.96451170938923,0,Medium
+merchant_00785,Merchant_785,Grocery Store,City_53,State_36,41.67164286701217,0,Low
+merchant_00786,Merchant_786,ATM,City_85,State_18,33.46778164954006,0,Low
+merchant_00787,Merchant_787,Electronics,City_2,State_3,15.372865396881874,1,Low
+merchant_00788,Merchant_788,Hotel,City_54,State_27,114.49542694701928,0,Low
+merchant_00789,Merchant_789,Airline,City_65,State_13,37.04916939715876,0,Low
+merchant_00790,Merchant_790,ATM,City_74,State_25,78.03462628928796,0,Low
+merchant_00791,Merchant_791,Clothing,City_57,State_30,189.79247381483265,0,Low
+merchant_00792,Merchant_792,Restaurant,City_67,State_24,21.205502020465612,2,Low
+merchant_00793,Merchant_793,Restaurant,City_3,State_32,107.1067301258889,0,Low
+merchant_00794,Merchant_794,Department Store,City_74,State_29,16.79041495813499,2,Low
+merchant_00795,Merchant_795,Restaurant,City_16,State_21,116.74859442131964,0,Low
+merchant_00796,Merchant_796,Hotel,City_18,State_23,20.565398320222446,0,Low
+merchant_00797,Merchant_797,Hotel,City_88,State_25,68.45819428911453,0,Medium
+merchant_00798,Merchant_798,Grocery Store,City_87,State_6,13.476870732286347,0,Low
+merchant_00799,Merchant_799,Department Store,City_64,State_41,17.18906249768042,2,High
+merchant_00800,Merchant_800,Clothing,City_76,State_24,83.44101568288202,0,Low
+merchant_00801,Merchant_801,Restaurant,City_87,State_40,77.42517028509353,2,High
+merchant_00802,Merchant_802,Entertainment,City_45,State_36,93.41712523146342,2,Medium
+merchant_00803,Merchant_803,Electronics,City_57,State_8,43.99381676975011,0,Low
+merchant_00804,Merchant_804,Hotel,City_68,State_22,36.78911973644721,1,Low
+merchant_00805,Merchant_805,Grocery Store,City_83,State_24,96.44850110147044,1,High
+merchant_00806,Merchant_806,Clothing,City_69,State_19,13.039554554195512,2,Low
+merchant_00807,Merchant_807,Entertainment,City_96,State_46,46.454362084868336,0,Low
+merchant_00808,Merchant_808,Department Store,City_67,State_22,13.708951055541625,2,Low
+merchant_00809,Merchant_809,Entertainment,City_31,State_26,63.723922125049995,0,Low
+merchant_00810,Merchant_810,Hotel,City_4,State_26,58.62320206341696,0,Low
+merchant_00811,Merchant_811,Clothing,City_88,State_14,215.10866984171344,0,Low
+merchant_00812,Merchant_812,Grocery Store,City_17,State_45,13.808214113447589,0,Low
+merchant_00813,Merchant_813,Clothing,City_18,State_24,136.87032749927428,0,Low
+merchant_00814,Merchant_814,Clothing,City_49,State_16,20.16678374816501,0,Low
+merchant_00815,Merchant_815,Restaurant,City_26,State_9,105.05893334307729,0,Medium
+merchant_00816,Merchant_816,Department Store,City_87,State_45,206.95244915262808,0,Low
+merchant_00817,Merchant_817,Grocery Store,City_63,State_20,11.030254433321403,2,Low
+merchant_00818,Merchant_818,Department Store,City_81,State_24,14.224848779170875,0,Medium
+merchant_00819,Merchant_819,Airline,City_17,State_20,12.962353119655251,1,Low
+merchant_00820,Merchant_820,Hotel,City_41,State_6,187.95581094904142,0,Low
+merchant_00821,Merchant_821,Restaurant,City_68,State_37,19.44599984367564,0,Low
+merchant_00822,Merchant_822,Pharmacy,City_35,State_12,116.40971900806566,0,Low
+merchant_00823,Merchant_823,Online Retail,City_4,State_10,464.6825914978743,0,Low
+merchant_00824,Merchant_824,Electronics,City_75,State_36,14.86984755287202,0,Low
+merchant_00825,Merchant_825,Entertainment,City_29,State_41,68.14665657593217,1,Low
+merchant_00826,Merchant_826,Pharmacy,City_8,State_42,44.96678982713343,0,Low
+merchant_00827,Merchant_827,Online Retail,City_95,State_30,74.32216846033228,0,Low
+merchant_00828,Merchant_828,Pharmacy,City_72,State_31,79.18651923602673,1,Low
+merchant_00829,Merchant_829,ATM,City_14,State_14,15.252839250170593,1,Low
+merchant_00830,Merchant_830,Entertainment,City_45,State_37,20.99379635860898,0,Medium
+merchant_00831,Merchant_831,Gas Station,City_47,State_4,9.032117238444114,0,Low
+merchant_00832,Merchant_832,Airline,City_20,State_18,41.051343078951916,1,Low
+merchant_00833,Merchant_833,Clothing,City_5,State_38,11.51647561346006,0,Medium
+merchant_00834,Merchant_834,Hotel,City_14,State_29,92.99988873727733,0,Low
+merchant_00835,Merchant_835,Electronics,City_88,State_33,55.08950854501898,0,Low
+merchant_00836,Merchant_836,Grocery Store,City_91,State_37,14.865084726704131,0,Medium
+merchant_00837,Merchant_837,Clothing,City_55,State_33,1.6981274977358791,0,Low
+merchant_00838,Merchant_838,Restaurant,City_39,State_14,39.052045918114764,0,Low
+merchant_00839,Merchant_839,Department Store,City_68,State_34,7.716961242300497,1,Low
+merchant_00840,Merchant_840,Department Store,City_39,State_42,17.97206909601077,0,Low
+merchant_00841,Merchant_841,Online Retail,City_14,State_6,516.2750881323168,0,Low
+merchant_00842,Merchant_842,Pharmacy,City_13,State_35,23.084581503958567,0,Low
+merchant_00843,Merchant_843,Clothing,City_16,State_47,37.35351917623215,0,Low
+merchant_00844,Merchant_844,Grocery Store,City_29,State_42,82.69084557798269,0,Medium
+merchant_00845,Merchant_845,Grocery Store,City_87,State_26,51.05471294938498,0,Low
+merchant_00846,Merchant_846,Hotel,City_43,State_10,9.989064712234391,1,Low
+merchant_00847,Merchant_847,ATM,City_81,State_33,36.03239828880088,1,Low
+merchant_00848,Merchant_848,Grocery Store,City_86,State_11,53.499152145163485,0,Low
+merchant_00849,Merchant_849,Clothing,City_38,State_18,280.0493691995973,0,Low
+merchant_00850,Merchant_850,ATM,City_24,State_42,14.29569951697351,1,Low
+merchant_00851,Merchant_851,Airline,City_29,State_26,156.40731015539774,0,Medium
+merchant_00852,Merchant_852,Department Store,City_4,State_19,69.13128877509085,0,Low
+merchant_00853,Merchant_853,Grocery Store,City_60,State_34,17.580470554876218,0,Low
+merchant_00854,Merchant_854,Hotel,City_82,State_2,74.10348424112468,0,Medium
+merchant_00855,Merchant_855,Hotel,City_92,State_30,56.364543056750726,1,High
+merchant_00856,Merchant_856,Online Retail,City_94,State_36,622.8087846927414,1,High
+merchant_00857,Merchant_857,Online Retail,City_41,State_41,63.893208331310824,0,Low
+merchant_00858,Merchant_858,Department Store,City_1,State_3,138.2896107828581,0,Medium
+merchant_00859,Merchant_859,Pharmacy,City_69,State_36,51.491844750931826,0,Low
+merchant_00860,Merchant_860,Online Retail,City_93,State_44,44.92501863319921,0,Low
+merchant_00861,Merchant_861,Gas Station,City_76,State_33,57.360684999257344,1,Low
+merchant_00862,Merchant_862,ATM,City_39,State_8,270.6682614451452,0,High
+merchant_00863,Merchant_863,Hotel,City_6,State_36,12.11257437270295,1,Low
+merchant_00864,Merchant_864,Airline,City_69,State_1,34.927773711403376,0,Low
+merchant_00865,Merchant_865,Restaurant,City_15,State_5,123.84363803245618,0,Low
+merchant_00866,Merchant_866,Gas Station,City_29,State_45,56.825491389326594,0,Low
+merchant_00867,Merchant_867,Restaurant,City_89,State_7,18.6781083851816,1,Low
+merchant_00868,Merchant_868,Online Retail,City_37,State_47,12.652675319883262,0,Low
+merchant_00869,Merchant_869,Department Store,City_93,State_23,32.01862532913687,1,Low
+merchant_00870,Merchant_870,Airline,City_22,State_9,23.817182918503264,0,Low
+merchant_00871,Merchant_871,Grocery Store,City_41,State_12,20.72192114923364,0,Low
+merchant_00872,Merchant_872,Clothing,City_44,State_32,122.35800603925478,0,Low
+merchant_00873,Merchant_873,Restaurant,City_1,State_19,22.990288762312737,1,Low
+merchant_00874,Merchant_874,Grocery Store,City_30,State_31,80.70976429588983,0,Medium
+merchant_00875,Merchant_875,Online Retail,City_78,State_43,145.64212499356017,0,Low
+merchant_00876,Merchant_876,Grocery Store,City_69,State_10,15.609158203305114,0,Low
+merchant_00877,Merchant_877,Gas Station,City_63,State_25,314.65612468632247,0,Low
+merchant_00878,Merchant_878,Restaurant,City_8,State_18,127.84346716496431,1,Low
+merchant_00879,Merchant_879,Grocery Store,City_46,State_32,194.02933805136104,0,Low
+merchant_00880,Merchant_880,Department Store,City_20,State_11,65.74141228156923,1,Low
+merchant_00881,Merchant_881,Grocery Store,City_51,State_3,149.03810988242097,0,Medium
+merchant_00882,Merchant_882,Clothing,City_72,State_2,47.910773986558716,1,Low
+merchant_00883,Merchant_883,Restaurant,City_33,State_30,56.980530245876814,0,Low
+merchant_00884,Merchant_884,Grocery Store,City_18,State_26,209.7662225198587,0,Low
+merchant_00885,Merchant_885,Restaurant,City_61,State_22,164.77396689032892,1,Low
+merchant_00886,Merchant_886,Department Store,City_41,State_22,43.51454466212474,2,High
+merchant_00887,Merchant_887,Pharmacy,City_39,State_2,110.6317569452655,0,Low
+merchant_00888,Merchant_888,Electronics,City_31,State_24,45.148862501751154,0,High
+merchant_00889,Merchant_889,Gas Station,City_90,State_35,74.61016718081419,0,Medium
+merchant_00890,Merchant_890,Electronics,City_41,State_37,40.52972979507758,1,Low
+merchant_00891,Merchant_891,ATM,City_30,State_10,326.31543892989697,2,Low
+merchant_00892,Merchant_892,Pharmacy,City_97,State_38,407.2547446730617,0,Low
+merchant_00893,Merchant_893,Restaurant,City_3,State_41,69.82015023001283,0,Medium
+merchant_00894,Merchant_894,Electronics,City_32,State_29,71.40886832230576,0,Low
+merchant_00895,Merchant_895,Grocery Store,City_64,State_16,50.05125253255936,0,Low
+merchant_00896,Merchant_896,Electronics,City_40,State_7,34.81998202786994,0,Low
+merchant_00897,Merchant_897,Hotel,City_10,State_31,97.4849529299951,1,Low
+merchant_00898,Merchant_898,Electronics,City_74,State_13,61.283864312605125,0,High
+merchant_00899,Merchant_899,Gas Station,City_72,State_49,26.856816174843416,1,Medium
+merchant_00900,Merchant_900,ATM,City_64,State_35,22.0179441008014,0,Low
+merchant_00901,Merchant_901,Pharmacy,City_62,State_28,350.18880147581825,1,Medium
+merchant_00902,Merchant_902,Hotel,City_46,State_3,49.72944000057579,0,Low
+merchant_00903,Merchant_903,Electronics,City_22,State_16,40.954696308530814,2,Low
+merchant_00904,Merchant_904,Entertainment,City_69,State_21,44.32281677901158,2,Low
+merchant_00905,Merchant_905,Grocery Store,City_7,State_36,27.417225819746946,1,Low
+merchant_00906,Merchant_906,Airline,City_8,State_32,108.30034784924291,0,Low
+merchant_00907,Merchant_907,Entertainment,City_30,State_27,35.57238828696419,1,Low
+merchant_00908,Merchant_908,Online Retail,City_73,State_24,108.58905900797393,1,Low
+merchant_00909,Merchant_909,Gas Station,City_43,State_48,11.841378235774233,2,Medium
+merchant_00910,Merchant_910,Clothing,City_28,State_38,44.78666496927028,0,Medium
+merchant_00911,Merchant_911,Restaurant,City_9,State_37,30.98343680625899,0,High
+merchant_00912,Merchant_912,ATM,City_16,State_40,56.919978910923085,0,Low
+merchant_00913,Merchant_913,Gas Station,City_15,State_27,67.03507142910877,0,Low
+merchant_00914,Merchant_914,Restaurant,City_97,State_26,73.03809888353878,0,Low
+merchant_00915,Merchant_915,Clothing,City_62,State_32,112.72822797312594,2,Low
+merchant_00916,Merchant_916,Gas Station,City_91,State_6,175.7130407171323,0,Low
+merchant_00917,Merchant_917,ATM,City_78,State_9,425.52520786189797,1,Low
+merchant_00918,Merchant_918,Grocery Store,City_25,State_34,176.924927345496,0,Medium
+merchant_00919,Merchant_919,Online Retail,City_54,State_14,21.3061917940617,1,Low
+merchant_00920,Merchant_920,Department Store,City_96,State_8,37.740298024427254,0,Low
+merchant_00921,Merchant_921,Gas Station,City_99,State_30,16.82483977585569,0,Medium
+merchant_00922,Merchant_922,Airline,City_91,State_34,106.48269640076884,0,Low
+merchant_00923,Merchant_923,Online Retail,City_28,State_46,93.87372861421846,1,Low
+merchant_00924,Merchant_924,Restaurant,City_24,State_11,81.23874825125782,1,Low
+merchant_00925,Merchant_925,Hotel,City_72,State_42,54.07038015571856,0,Low
+merchant_00926,Merchant_926,Gas Station,City_34,State_23,240.51514846428162,0,Low
+merchant_00927,Merchant_927,Airline,City_61,State_25,53.93644551046819,1,Low
+merchant_00928,Merchant_928,Gas Station,City_49,State_33,170.1467681763973,0,Low
+merchant_00929,Merchant_929,Airline,City_56,State_27,22.903672170549875,1,Low
+merchant_00930,Merchant_930,Hotel,City_70,State_26,82.54549230127526,2,Low
+merchant_00931,Merchant_931,Department Store,City_90,State_11,37.92450677080895,0,Low
+merchant_00932,Merchant_932,Airline,City_46,State_24,38.84134898304389,0,Low
+merchant_00933,Merchant_933,Online Retail,City_34,State_46,41.73696779629642,0,Low
+merchant_00934,Merchant_934,Online Retail,City_65,State_3,42.01741907949049,1,Medium
+merchant_00935,Merchant_935,Clothing,City_93,State_3,45.524160957705824,0,Low
+merchant_00936,Merchant_936,Online Retail,City_6,State_21,19.01921648342554,0,Low
+merchant_00937,Merchant_937,Online Retail,City_90,State_2,1134.6422116389854,1,High
+merchant_00938,Merchant_938,Hotel,City_96,State_19,73.74527805515301,0,Low
+merchant_00939,Merchant_939,Online Retail,City_36,State_49,412.464159108178,0,Low
+merchant_00940,Merchant_940,Online Retail,City_85,State_38,9.27731636130443,0,Low
+merchant_00941,Merchant_941,Hotel,City_54,State_40,106.10648616949804,1,Low
+merchant_00942,Merchant_942,Hotel,City_80,State_48,17.229061328622645,0,Low
+merchant_00943,Merchant_943,Airline,City_53,State_25,238.87253113358983,0,Low
+merchant_00944,Merchant_944,Grocery Store,City_58,State_19,52.70968983521888,1,Low
+merchant_00945,Merchant_945,ATM,City_48,State_4,103.39793612970544,1,Low
+merchant_00946,Merchant_946,Hotel,City_80,State_8,34.34580418950738,2,Low
+merchant_00947,Merchant_947,Grocery Store,City_89,State_35,28.040582425153225,2,Low
+merchant_00948,Merchant_948,Online Retail,City_57,State_45,27.538531232840942,2,Low
+merchant_00949,Merchant_949,Electronics,City_21,State_49,70.30878318428283,0,Medium
+merchant_00950,Merchant_950,Pharmacy,City_44,State_6,51.92598876899344,0,Low
+merchant_00951,Merchant_951,Clothing,City_66,State_38,173.07938001476043,0,Low
+merchant_00952,Merchant_952,Entertainment,City_70,State_11,28.977861333291994,0,Low
+merchant_00953,Merchant_953,Electronics,City_67,State_35,138.13610883075845,0,Low
+merchant_00954,Merchant_954,Clothing,City_4,State_24,484.9133317606848,0,Low
+merchant_00955,Merchant_955,Entertainment,City_1,State_6,41.553088048549725,1,Low
+merchant_00956,Merchant_956,Clothing,City_31,State_15,30.715879713536626,1,Low
+merchant_00957,Merchant_957,ATM,City_92,State_2,30.08873239430638,0,Low
+merchant_00958,Merchant_958,ATM,City_82,State_20,74.46224275850953,0,Low
+merchant_00959,Merchant_959,Restaurant,City_66,State_23,18.68941884258274,0,Low
+merchant_00960,Merchant_960,ATM,City_45,State_17,24.267362429522688,2,Low
+merchant_00961,Merchant_961,Restaurant,City_96,State_48,190.2808078198707,1,Low
+merchant_00962,Merchant_962,Pharmacy,City_21,State_19,19.343034516181444,0,Low
+merchant_00963,Merchant_963,Electronics,City_33,State_18,40.683240202966424,0,Low
+merchant_00964,Merchant_964,Electronics,City_48,State_26,53.26370580424661,1,Medium
+merchant_00965,Merchant_965,ATM,City_78,State_47,82.32484929710722,2,Low
+merchant_00966,Merchant_966,Entertainment,City_73,State_40,92.58101860779381,1,Low
+merchant_00967,Merchant_967,Clothing,City_44,State_16,127.5348006231069,1,Low
+merchant_00968,Merchant_968,Hotel,City_36,State_6,21.855571164903427,0,Low
+merchant_00969,Merchant_969,Restaurant,City_98,State_29,27.517787726693676,1,Low
+merchant_00970,Merchant_970,Pharmacy,City_55,State_8,28.14528822697418,2,Low
+merchant_00971,Merchant_971,Airline,City_81,State_12,34.119969844080565,1,Low
+merchant_00972,Merchant_972,Gas Station,City_19,State_33,43.63108533640794,0,Low
+merchant_00973,Merchant_973,Entertainment,City_60,State_25,47.66919837008544,0,Low
+merchant_00974,Merchant_974,ATM,City_99,State_20,63.69203343404635,0,Low
+merchant_00975,Merchant_975,Airline,City_1,State_8,83.81698977344341,0,Low
+merchant_00976,Merchant_976,ATM,City_3,State_30,57.56494431001272,1,Low
+merchant_00977,Merchant_977,Department Store,City_89,State_14,220.3303035351616,0,Low
+merchant_00978,Merchant_978,Pharmacy,City_48,State_27,5.331683761006321,0,Low
+merchant_00979,Merchant_979,Gas Station,City_83,State_39,31.952655612811935,1,Medium
+merchant_00980,Merchant_980,ATM,City_87,State_24,10.771862574879115,0,Low
+merchant_00981,Merchant_981,Hotel,City_23,State_22,362.6227924777226,1,Low
+merchant_00982,Merchant_982,Restaurant,City_85,State_28,26.08414346838241,0,Low
+merchant_00983,Merchant_983,Grocery Store,City_90,State_40,21.528766381474526,1,Low
+merchant_00984,Merchant_984,Clothing,City_1,State_22,48.887202213510434,1,Medium
+merchant_00985,Merchant_985,Clothing,City_36,State_31,114.98940200423446,1,Low
+merchant_00986,Merchant_986,Clothing,City_56,State_42,52.55137681614527,0,Low
+merchant_00987,Merchant_987,Clothing,City_10,State_1,76.19748163335518,0,Low
+merchant_00988,Merchant_988,Entertainment,City_77,State_20,16.30602238204654,0,Low
+merchant_00989,Merchant_989,ATM,City_91,State_32,32.87680003723998,1,Low
+merchant_00990,Merchant_990,Clothing,City_87,State_36,152.68154042970414,1,Low
+merchant_00991,Merchant_991,Restaurant,City_33,State_31,7.235660784556264,1,Low
+merchant_00992,Merchant_992,Department Store,City_13,State_18,255.32245918284048,0,Low
+merchant_00993,Merchant_993,Entertainment,City_65,State_26,76.21421854912096,0,Medium
+merchant_00994,Merchant_994,Airline,City_79,State_1,28.77420365623453,0,Low
+merchant_00995,Merchant_995,Clothing,City_34,State_3,72.34080300118896,0,Low
+merchant_00996,Merchant_996,Entertainment,City_41,State_10,113.61248736404906,2,Low
+merchant_00997,Merchant_997,Grocery Store,City_92,State_18,28.574092427222325,0,Medium
+merchant_00998,Merchant_998,Restaurant,City_51,State_6,34.52832660810062,0,Low
+merchant_00999,Merchant_999,Grocery Store,City_37,State_14,72.27189019121074,0,Low

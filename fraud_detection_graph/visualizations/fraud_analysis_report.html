@@ -1,0 +1,54 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Fraud Detection Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .header { text-align: center; color: #333; }
+                .section { margin: 30px 0; }
+                .viz-container { text-align: center; margin: 20px 0; }
+                .stats { background: #f5f5f5; padding: 20px; border-radius: 5px; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Credit Card Fraud Detection Analysis</h1>
+                <p>Graph-based Deep Learning Approach</p>
+            </div>
+            
+            <div class="section">
+                <h2>Dataset Overview</h2>
+                <div class="stats">
+                    <p><strong>Total Transactions:</strong> 50,000</p>
+                    <p><strong>Fraudulent Transactions:</strong> 1,329 (2.66%)</p>
+                    <p><strong>Unique Cards:</strong> 9,937</p>
+                    <p><strong>Unique Merchants:</strong> 1,000</p>
+                    <p><strong>True Fraud Rings:</strong> 15</p>
+                    <p><strong>Detected Fraud Rings:</strong> 0</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Visualizations</h2>
+                <div class="viz-container">
+                    <h3>Transaction Pattern Analysis</h3>
+                    <p><a href="transaction_heatmap_hourly.html" target="_blank">Hourly Transaction Heatmap</a></p>
+                    <p><a href="transaction_heatmap_weekday.html" target="_blank">Weekly Transaction Heatmap</a></p>
+                </div>
+                
+                <div class="viz-container">
+                    <h3>Entity Relationship Analysis</h3>
+                    <p><a href="entity_relationship_heatmap.html" target="_blank">Card-Merchant Relationship Heatmap</a></p>
+                    <p><a href="risk_score_heatmap.html" target="_blank">Risk Score Analysis</a></p>
+                </div>
+                
+                <div class="viz-container">
+                    <h3>Fraud Ring Detection</h3>
+                    <p><a href="true_fraud_rings.html" target="_blank">Ground Truth Fraud Rings</a></p>
+                    <p><a href="detected_fraud_rings.html" target="_blank">Detected Fraud Rings</a></p>
+                </div>
+            </div>
+        </body>
+        </html>
+        

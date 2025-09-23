@@ -1,0 +1,398 @@
+[
+  {
+    "ring_id": "ring_000",
+    "ring_type": "Collusion",
+    "cards": [
+      "card_008609",
+      "card_007970",
+      "card_009976"
+    ],
+    "merchants": [
+      "merchant_00294"
+    ],
+    "devices": [
+      "device_001451"
+    ],
+    "ips": [
+      "83.1.165.96"
+    ],
+    "activity_start": "2025-07-05",
+    "activity_end": "2025-09-18",
+    "estimated_loss": 1303.4033158521404
+  },
+  {
+    "ring_id": "ring_001",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_009975",
+      "card_008466",
+      "card_003795",
+      "card_004213"
+    ],
+    "merchants": [
+      "merchant_00857"
+    ],
+    "devices": [
+      "device_002926",
+      "device_001473"
+    ],
+    "ips": [
+      "162.132.117.199"
+    ],
+    "activity_start": "2025-09-17",
+    "activity_end": "2025-09-22",
+    "estimated_loss": 8169.193256296387
+  },
+  {
+    "ring_id": "ring_002",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_000384",
+      "card_004297",
+      "card_003750",
+      "card_007014",
+      "card_002504"
+    ],
+    "merchants": [
+      "merchant_00340"
+    ],
+    "devices": [
+      "device_000162",
+      "device_000266"
+    ],
+    "ips": [
+      "90.189.231.213"
+    ],
+    "activity_start": "2025-07-16",
+    "activity_end": "2025-09-23",
+    "estimated_loss": 1179.8115976818954
+  },
+  {
+    "ring_id": "ring_003",
+    "ring_type": "Collusion",
+    "cards": [
+      "card_003825",
+      "card_000955",
+      "card_000951",
+      "card_004752"
+    ],
+    "merchants": [
+      "merchant_00251"
+    ],
+    "devices": [
+      "device_004519",
+      "device_002210"
+    ],
+    "ips": [
+      "105.168.194.83"
+    ],
+    "activity_start": "2025-06-27",
+    "activity_end": "2025-09-21",
+    "estimated_loss": 1462.6181401814797
+  },
+  {
+    "ring_id": "ring_004",
+    "ring_type": "Money_Laundering",
+    "cards": [
+      "card_008229",
+      "card_005419",
+      "card_009580",
+      "card_005979",
+      "card_009941",
+      "card_008497",
+      "card_000953",
+      "card_003123",
+      "card_007576"
+    ],
+    "merchants": [
+      "merchant_00165",
+      "merchant_00947",
+      "merchant_00696"
+    ],
+    "devices": [
+      "device_002643",
+      "device_004348",
+      "device_001722",
+      "device_001376"
+    ],
+    "ips": [
+      "62.140.162.121",
+      "218.21.150.14"
+    ],
+    "activity_start": "2025-08-11",
+    "activity_end": "2025-09-23",
+    "estimated_loss": 338.5375946129012
+  },
+  {
+    "ring_id": "ring_005",
+    "ring_type": "Collusion",
+    "cards": [
+      "card_008725",
+      "card_000251",
+      "card_001136"
+    ],
+    "merchants": [
+      "merchant_00504"
+    ],
+    "devices": [
+      "device_004951"
+    ],
+    "ips": [
+      "207.128.239.117"
+    ],
+    "activity_start": "2025-09-16",
+    "activity_end": "2025-09-20",
+    "estimated_loss": 11978.706086768705
+  },
+  {
+    "ring_id": "ring_006",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_005333",
+      "card_009906",
+      "card_001922",
+      "card_009791",
+      "card_007647"
+    ],
+    "merchants": [
+      "merchant_00113"
+    ],
+    "devices": [
+      "device_003709",
+      "device_002484"
+    ],
+    "ips": [
+      "126.249.150.236"
+    ],
+    "activity_start": "2025-08-13",
+    "activity_end": "2025-09-17",
+    "estimated_loss": 2577.7676571544816
+  },
+  {
+    "ring_id": "ring_007",
+    "ring_type": "Money_Laundering",
+    "cards": [
+      "card_005474",
+      "card_002025",
+      "card_001750",
+      "card_008875"
+    ],
+    "merchants": [
+      "merchant_00399"
+    ],
+    "devices": [
+      "device_002776",
+      "device_004564"
+    ],
+    "ips": [
+      "216.97.215.22"
+    ],
+    "activity_start": "2025-07-14",
+    "activity_end": "2025-09-23",
+    "estimated_loss": 7691.758512500907
+  },
+  {
+    "ring_id": "ring_008",
+    "ring_type": "Collusion",
+    "cards": [
+      "card_005582",
+      "card_005025",
+      "card_003480",
+      "card_005664",
+      "card_001482",
+      "card_007362",
+      "card_000342"
+    ],
+    "merchants": [
+      "merchant_00005",
+      "merchant_00225"
+    ],
+    "devices": [
+      "device_003875",
+      "device_001060",
+      "device_004118"
+    ],
+    "ips": [
+      "10.202.9.170"
+    ],
+    "activity_start": "2025-08-31",
+    "activity_end": "2025-09-19",
+    "estimated_loss": 66789.16885938133
+  },
+  {
+    "ring_id": "ring_009",
+    "ring_type": "Account_Takeover",
+    "cards": [
+      "card_001910",
+      "card_003289",
+      "card_006712",
+      "card_002289",
+      "card_004263",
+      "card_003247",
+      "card_002384",
+      "card_004054",
+      "card_003072",
+      "card_001435",
+      "card_003313"
+    ],
+    "merchants": [
+      "merchant_00801",
+      "merchant_00315",
+      "merchant_00177"
+    ],
+    "devices": [
+      "device_000807",
+      "device_000005",
+      "device_004276",
+      "device_000038",
+      "device_003714"
+    ],
+    "ips": [
+      "251.17.203.206",
+      "231.94.20.134"
+    ],
+    "activity_start": "2025-07-07",
+    "activity_end": "2025-09-19",
+    "estimated_loss": 2544.507569047036
+  },
+  {
+    "ring_id": "ring_010",
+    "ring_type": "Account_Takeover",
+    "cards": [
+      "card_008351",
+      "card_000753",
+      "card_008424",
+      "card_004116",
+      "card_000584",
+      "card_004586",
+      "card_004134",
+      "card_009235",
+      "card_000132",
+      "card_000656"
+    ],
+    "merchants": [
+      "merchant_00889",
+      "merchant_00498",
+      "merchant_00854"
+    ],
+    "devices": [
+      "device_002862",
+      "device_000521",
+      "device_001612",
+      "device_004677",
+      "device_004907"
+    ],
+    "ips": [
+      "71.12.212.53",
+      "12.135.82.23"
+    ],
+    "activity_start": "2025-08-21",
+    "activity_end": "2025-09-22",
+    "estimated_loss": 887.6982005062717
+  },
+  {
+    "ring_id": "ring_011",
+    "ring_type": "Money_Laundering",
+    "cards": [
+      "card_003201",
+      "card_006060",
+      "card_004503",
+      "card_003582",
+      "card_000590",
+      "card_006305"
+    ],
+    "merchants": [
+      "merchant_00272",
+      "merchant_00907"
+    ],
+    "devices": [
+      "device_000731",
+      "device_003462",
+      "device_004747"
+    ],
+    "ips": [
+      "64.175.78.75"
+    ],
+    "activity_start": "2025-08-16",
+    "activity_end": "2025-09-18",
+    "estimated_loss": 4894.995390717565
+  },
+  {
+    "ring_id": "ring_012",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_004151",
+      "card_007131",
+      "card_009747"
+    ],
+    "merchants": [
+      "merchant_00893"
+    ],
+    "devices": [
+      "device_003810"
+    ],
+    "ips": [
+      "193.226.210.157"
+    ],
+    "activity_start": "2025-09-18",
+    "activity_end": "2025-09-21",
+    "estimated_loss": 339.49322683286516
+  },
+  {
+    "ring_id": "ring_013",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_003191",
+      "card_005736",
+      "card_000011",
+      "card_006050",
+      "card_002131",
+      "card_007262",
+      "card_000020",
+      "card_008826",
+      "card_004880"
+    ],
+    "merchants": [
+      "merchant_00964",
+      "merchant_00402",
+      "merchant_00727"
+    ],
+    "devices": [
+      "device_003827",
+      "device_003654",
+      "device_002758",
+      "device_000697"
+    ],
+    "ips": [
+      "137.36.1.151",
+      "41.84.68.142"
+    ],
+    "activity_start": "2025-08-04",
+    "activity_end": "2025-09-21",
+    "estimated_loss": 604.3227244668867
+  },
+  {
+    "ring_id": "ring_014",
+    "ring_type": "Card_Testing",
+    "cards": [
+      "card_008566",
+      "card_001641",
+      "card_008200",
+      "card_006574",
+      "card_001656"
+    ],
+    "merchants": [
+      "merchant_00480"
+    ],
+    "devices": [
+      "device_004870",
+      "device_002664"
+    ],
+    "ips": [
+      "84.137.195.51"
+    ],
+    "activity_start": "2025-09-13",
+    "activity_end": "2025-09-23",
+    "estimated_loss": 56464.3219728345
+  }
+]
