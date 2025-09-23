@@ -1,0 +1,91 @@
+FraudGraphX API Testing Examples
+================================
+
+Single Transaction Prediction:
+curl -X POST "http://localhost:8000/predict/single" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "transaction_id": "txn_001",
+       "card_id": "card_12345",
+       "merchant_id": "merchant_67890",
+       "device_id": "device_abcde",
+       "ip": "192.168.1.100",
+       "amount": 1500.50,
+       "transaction_type": "purchase",
+       "merchant_category": "electronics",
+       "hour": 23,
+       "day_of_week": 5,
+       "velocity_1h": 3,
+       "velocity_24h": 8,
+       "amount_std_dev": 2.5,
+       "location_risk_score": 0.7
+     }'
+
+Batch Transaction Prediction:
+curl -X POST "http://localhost:8000/predict/batch" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "transactions": [
+         {
+           "transaction_id": "txn_002",
+           "card_id": "card_11111",
+           "merchant_id": "merchant_22222",
+           "device_id": "device_33333",
+           "ip": "192.168.1.101",
+           "amount": 50.00,
+           "transaction_type": "purchase",
+           "merchant_category": "grocery",
+           "hour": 14,
+           "day_of_week": 2,
+           "velocity_1h": 1,
+           "velocity_24h": 3,
+           "amount_std_dev": 0.5,
+           "location_risk_score": 0.1
+         },
+         {
+           "transaction_id": "txn_003",
+           "card_id": "card_44444",
+           "merchant_id": "merchant_55555",
+           "device_id": "device_66666",
+           "ip": "10.0.0.1",
+           "amount": 2500.00,
+           "transaction_type": "withdrawal",
+           "merchant_category": "cash_advance",
+           "hour": 2,
+           "day_of_week": 0,
+           "velocity_1h": 8,
+           "velocity_24h": 15,
+           "amount_std_dev": 5.0,
+           "location_risk_score": 0.9
+         }
+       ]
+     }'
+
+Fraud Ring Detection:
+curl -X POST "http://localhost:8000/rings/detect" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "method": "ensemble",
+       "min_ring_size": 3,
+       "max_ring_size": 20,
+       "fraud_threshold": 0.3
+     }'
+
+Health Check:
+curl -X GET "http://localhost:8000/health" \
+     -H "Content-Type: application/json"
+
+Analytics Summary:
+curl -X GET "http://localhost:8000/analytics/summary" \
+     -H "Content-Type: application/json"
+
+Model Training:
+curl -X POST "http://localhost:8000/model/train" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "model_type": "graphsage",
+       "hidden_dim": 128,
+       "num_layers": 2,
+       "learning_rate": 0.001,
+       "epochs": 50
+     }'

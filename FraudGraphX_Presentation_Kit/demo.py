@@ -1,88 +1,87 @@
 #!/usr/bin/env python3
 """
-FraudGraphX Demo Script
-Complete demonstration of graph-based fraud detection capabilities.
+FraudGraphX - Interactive Demo for Credit Card Fraud Detection
+School Project Presentation Version
 """
-
-import os
-import sys
-import time
-import logging
-import argparse
-import subprocess
-import asyncio
-from pathlib import Path
-
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent / "src"))
-
-from src.data.generate_fraud_data import FraudDataGenerator
-from src.graph.graph_builder import HeterogeneousGraphBuilder
-from src.graph.community_detection import FraudRingDetector
-from src.features.anomaly_detector import MultiModalAnomalyDetector
-from src.utils.evaluation_metrics import FraudDetectionMetrics, RingDetectionMetrics
-from src.visual.fraud_ring_viz import FraudRingVisualizer
 
 import pandas as pd
 import numpy as np
+import json
 import matplotlib.pyplot as plt
 import seaborn as sns
-import json
+from datetime import datetime, timedelta
+import warnings
+warnings.filterwarnings('ignore')
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+print("🚀 FraudGraphX - Graph-Based Credit Card Fraud Detection Demo")
+print("=" * 60)
 
-class FraudGraphXDemo:
-    """Complete demonstration of FraudGraphX capabilities."""
-    
-    def __init__(self, output_dir: str = "demo_output"):
-        self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
-        
-        # Create subdirectories
-        (self.output_dir / "data").mkdir(exist_ok=True)
-        (self.output_dir / "models").mkdir(exist_ok=True)
-        (self.output_dir / "visualizations").mkdir(exist_ok=True)
-        (self.output_dir / "reports").mkdir(exist_ok=True)
-        
-        self.data_path = self.output_dir / "data" / "fraud_transactions.csv"
-        self.results = {}
-    
-    def step_1_generate_data(self, n_transactions: int = 10000, fraud_rate: float = 0.05):
-        """Step 1: Generate realistic fraud data with rings."""
-        logger.info("🎯 Step 1: Generating fraud data with rings")
-        
-        generator = FraudDataGenerator(
-            n_transactions=n_transactions,
-            fraud_rate=fraud_rate,
-            n_fraud_rings=8
-        )
-        
-        df = generator.generate_transactions()
-        df.to_csv(self.data_path, index=False)
-        
-        # Log statistics
-        stats = {
-            'total_transactions': len(df),
-            'fraud_transactions': df['fraud'].sum(),
-            'fraud_rate': df['fraud'].mean(),
-            'unique_cards': df['card_id'].nunique(),
-            'unique_merchants': df['merchant_id'].nunique(),
-            'unique_devices': df['device_id'].nunique(),
-            'unique_ips': df['ip'].nunique(),
-            'fraud_rings': len(df[df['fraud_ring'] != 'none']['fraud_ring'].unique())
-        }
-        
-        logger.info(f"✅ Generated {stats['total_transactions']} transactions")
-        logger.info(f"   - Fraud rate: {stats['fraud_rate']:.1%}")
-        logger.info(f"   - Fraud rings: {stats['fraud_rings']}")
-        logger.info(f"   - Unique entities: {stats['unique_cards']} cards, {stats['unique_merchants']} merchants")
-        
-        self.results['data_stats'] = stats
+class FraudDetectionDemo:
+    def __init__(self):
+        self.sample_data = self.generate_sample_data()
+        self.detected_rings = self.detect_fraud_rings()
+        self.fraud_predictions = self.predict_fraud()
+
+    def generate_sample_data(self):
+        """Generate sample transaction data for demonstration"""
+        print("\n📊 1. Generating Sample Dataset...")
+        np.random.seed(42)
+
+        # Create 1000 transactions
+        n_transactions = 1000
+        fraud_rate = 0.1  # 10% fraud rate
+
+        # Generate entity IDs
+        cards = [f'card_{i:04d}' for i in range(50)]
+        merchants = [f'merchant_{i:03d}' for i in range(30)]
+        devices = [f'device_{i:03d}' for i in range(40)]
+        ips = [f'{np.random.randint(1,255)}.{np.random.randint(1,255)}.{np.random.randint(1,255)}.{np.random.randint(1,255)}' for i in range(25)]
+
+        transactions = []
+        for i in range(n_transactions):
+            # Create fraud rings (shared entities)
+            if i < int(n_transactions * fraud_rate):
+                # Fraud transaction - use shared entities
+                ring_id = np.random.choice(['ring_1', 'ring_2', 'ring_3'])
+                card = np.random.choice(['card_0001', 'card_0002', 'card_0003', 'card_0004'])  # Shared cards
+                merchant = np.random.choice(['merchant_001', 'merchant_002', 'merchant_003'])  # Shared merchants
+                device = np.random.choice(['device_001', 'device_002', 'device_003'])  # Shared devices
+                ip = np.random.choice(['192.168.1.1', '192.168.1.2', '10.0.0.1'])  # Shared IPs
+                amount = np.random.exponential(500) + 100  # Higher amounts for fraud
+                hour = np.random.choice([22, 23, 0, 1, 2, 3], p=[0.3, 0.3, 0.2, 0.1, 0.05, 0.05])  # Night hours
+                fraud = 1
+            else:
+                # Legitimate transaction
+                card = np.random.choice(cards)
+                merchant = np.random.choice(merchants)
+                device = np.random.choice(devices)
+                ip = np.random.choice(ips)
+                amount = np.random.lognormal(3, 1) + 10  # Normal spending
+                hour = np.random.choice(range(24), p=[0.02]*6 + [0.04]*6 + [0.06]*6 + [0.04]*6)  # Day hours
+                fraud = 0
+
+            transaction = {
+                'transaction_id': f'txn_{i:06d}',
+                'card_id': card,
+                'merchant_id': merchant,
+                'device_id': device,
+                'ip': ip,
+                'amount': round(amount, 2),
+                'transaction_type': np.random.choice(['purchase', 'withdrawal', 'transfer'], p=[0.7, 0.2, 0.1]),
+                'merchant_category': np.random.choice(['electronics', 'grocery', 'restaurant', 'online_retail', 'gas_station']),
+                'hour': hour,
+                'day_of_week': np.random.randint(0, 7),
+                'fraud': fraud,
+                'velocity_1h': np.random.poisson(2 if fraud else 0.5),
+                'velocity_24h': np.random.poisson(8 if fraud else 2),
+                'location_risk_score': np.random.beta(2, 1) if fraud else np.random.beta(1, 2)
+            }
+            transactions.append(transaction)
+
+        df = pd.DataFrame(transactions)
+        print(f"✅ Generated {len(df)} transactions")
+        print(f"✅ Fraud rate: {df['fraud'].mean():.1%}")
+        print(f"✅ Unique entities: {len(cards)} cards, {len(merchants)} merchants, {len(devices)} devices, {len(ips)} IPs")
         return df
     
     def step_2_build_graph(self, df: pd.DataFrame):
