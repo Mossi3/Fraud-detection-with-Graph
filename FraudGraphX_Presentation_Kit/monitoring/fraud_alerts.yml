@@ -1,0 +1,84 @@
+groups:
+  - name: fraud_detection_alerts
+    rules:
+      # High fraud rate alert
+      - alert: HighFraudRate
+        expr: rate(fraud_transactions_total{fraud_prediction="True"}[5m]) > 0.1
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High fraud rate detected"
+          description: "Fraud rate is {{ $value }} transactions per second"
+
+      # High prediction latency
+      - alert: HighPredictionLatency
+        expr: histogram_quantile(0.95, fraud_prediction_duration_seconds_bucket) > 0.5
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High prediction latency"
+          description: "95th percentile prediction latency is {{ $value }}s"
+
+      # Fraud ring detection spike
+      - alert: FraudRingSpike
+        expr: increase(fraud_ring_alerts_total[5m]) > 5
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Fraud ring detection spike"
+          description: "{{ $value }} fraud rings detected in the last 5 minutes"
+
+      # Anomaly detection spike
+      - alert: AnomalySpike
+        expr: increase(fraud_anomaly_alerts_total[5m]) > 10
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Anomaly detection spike"
+          description: "{{ $value }} anomalies detected in the last 5 minutes"
+
+      # API health check failure
+      - alert: APIDown
+        expr: up{job="fraudgraphx-api"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "FraudGraphX API is down"
+          description: "The FraudGraphX API has been down for more than 30 seconds"
+
+      # Monitor service down
+      - alert: MonitorDown
+        expr: up{job="fraudgraphx-monitor"} == 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "FraudGraphX Monitor is down"
+          description: "The FraudGraphX Monitor service has been down for more than 1 minute"
+
+  - name: system_alerts
+    rules:
+      # High memory usage
+      - alert: HighMemoryUsage
+        expr: (1 - (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)) * 100 > 90
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage"
+          description: "Memory usage is above 90%"
+
+      # High CPU usage
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage"
+          description: "CPU usage is above 80%"
