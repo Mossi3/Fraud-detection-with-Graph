@@ -14,3 +14,12 @@ networkx
 node2vec
 shap
 torch
+torch-geometric
+leidenalg
+igraph
+plotly
+dash
+dash-bootstrap-components
+kaleido
+python-multipart
+pydantic
