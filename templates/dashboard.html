@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Fraud Detection System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 30px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 15px;
+            color: white;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            padding: 15px 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(45deg, #ff9a9e, #fecfef);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .fraud-indicator {
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .fraud-high {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+        }
+        
+        .fraud-medium {
+            background: linear-gradient(45deg, #f093fb, #f5576c);
+            color: white;
+        }
+        
+        .fraud-low {
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            color: white;
+        }
+        
+        .btn-custom {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 30px;
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            color: white;
+        }
+        
+        .heatmap-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .alert-custom {
+            border-radius: 15px;
+            border: none;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .form-control {
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            padding: 12px 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+        
+        .nav-tabs {
+            border-bottom: none;
+        }
+        
+        .nav-tabs .nav-link {
+            border: none;
+            border-radius: 15px 15px 0 0;
+            margin-right: 5px;
+            background: #f8f9fa;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .nav-tabs .nav-link.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-shield-alt"></i> Credit Card Fraud Detection System</h1>
+                <p class="mb-0">Advanced Deep Learning & Graph-Based Fraud Detection</p>
+            </div>
+            
+            <!-- Statistics Cards -->
+            <div class="row" id="statsRow">
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalTransactions">-</div>
+                        <div class="stat-label">Total Transactions</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-number" id="fraudRate">-</div>
+                        <div class="stat-label">Fraud Rate</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-number" id="fraudRings">-</div>
+                        <div class="stat-label">Fraud Rings</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalAmount">-</div>
+                        <div class="stat-label">Total Amount</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Content Tabs -->
+            <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="predict-tab" data-bs-toggle="tab" data-bs-target="#predict" type="button" role="tab">
+                        <i class="fas fa-search"></i> Fraud Detection
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="heatmaps-tab" data-bs-toggle="tab" data-bs-target="#heatmaps" type="button" role="tab">
+                        <i class="fas fa-fire"></i> Heatmaps
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="rings-tab" data-bs-toggle="tab" data-bs-target="#rings" type="button" role="tab">
+                        <i class="fas fa-network-wired"></i> Fraud Rings
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="analytics-tab" data-bs-toggle="tab" data-bs-target="#analytics" type="button" role="tab">
+                        <i class="fas fa-chart-line"></i> Analytics
+                    </button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="mainTabContent">
+                <!-- Fraud Detection Tab -->
+                <div class="tab-pane fade show active" id="predict" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><i class="fas fa-credit-card"></i> Transaction Input</h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="fraudForm">
+                                        <div class="mb-3">
+                                            <label class="form-label">Card ID</label>
+                                            <input type="text" class="form-control" id="cardId" placeholder="e.g., card_001000">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Merchant ID</label>
+                                            <input type="text" class="form-control" id="merchantId" placeholder="e.g., merchant_0200">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Device ID</label>
+                                            <input type="text" class="form-control" id="deviceId" placeholder="e.g., device_005000">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">IP Address</label>
+                                            <input type="text" class="form-control" id="ipAddress" placeholder="e.g., 192.168.1.1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Amount</label>
+                                            <input type="number" class="form-control" id="amount" placeholder="e.g., 1500.00" step="0.01">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Category</label>
+                                            <select class="form-control" id="category">
+                                                <option value="online">Online</option>
+                                                <option value="electronics">Electronics</option>
+                                                <option value="jewelry">Jewelry</option>
+                                                <option value="groceries">Groceries</option>
+                                                <option value="gas">Gas</option>
+                                                <option value="restaurant">Restaurant</option>
+                                                <option value="retail">Retail</option>
+                                                <option value="cash_advance">Cash Advance</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Country</label>
+                                            <select class="form-control" id="country">
+                                                <option value="US">United States</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="UK">United Kingdom</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="FR">France</option>
+                                            </select>
+                                        </div>
+                                        <button type="submit" class="btn btn-custom w-100">
+                                            <i class="fas fa-search"></i> Detect Fraud
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><i class="fas fa-chart-pie"></i> Prediction Results</h5>
+                                </div>
+                                <div class="card-body" id="predictionResults">
+                                    <div class="text-center text-muted">
+                                        <i class="fas fa-search fa-3x mb-3"></i>
+                                        <p>Enter transaction details and click "Detect Fraud" to see results</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sample Transactions -->
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h5><i class="fas fa-list"></i> Sample Transactions</h5>
+                        </div>
+                        <div class="card-body">
+                            <button class="btn btn-custom" onclick="loadSampleTransactions()">
+                                <i class="fas fa-download"></i> Load Sample Data
+                            </button>
+                            <div id="sampleTransactions" class="mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Heatmaps Tab -->
+                <div class="tab-pane fade" id="heatmaps" role="tabpanel">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-fire"></i> Fraud Pattern Heatmaps</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="loading" id="heatmapLoading">
+                                <div class="spinner"></div>
+                                <p class="mt-3">Loading heatmaps...</p>
+                            </div>
+                            <div id="heatmapContent" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fraud Rings Tab -->
+                <div class="tab-pane fade" id="rings" role="tabpanel">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-network-wired"></i> Detected Fraud Rings</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="loading" id="ringsLoading">
+                                <div class="spinner"></div>
+                                <p class="mt-3">Loading fraud rings...</p>
+                            </div>
+                            <div id="ringsContent" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analytics Tab -->
+                <div class="tab-pane fade" id="analytics" role="tabpanel">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><i class="fas fa-chart-bar"></i> Transaction Distribution</h5>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="transactionChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><i class="fas fa-chart-pie"></i> Fraud vs Normal</h5>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="fraudChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Global variables
+        let statistics = {};
+        let charts = {};
+        
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            loadStatistics();
+            setupEventListeners();
+        });
+        
+        function setupEventListeners() {
+            // Form submission
+            document.getElementById('fraudForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                detectFraud();
+            });
+            
+            // Tab change events
+            document.getElementById('heatmaps-tab').addEventListener('click', function() {
+                loadHeatmaps();
+            });
+            
+            document.getElementById('rings-tab').addEventListener('click', function() {
+                loadFraudRings();
+            });
+            
+            document.getElementById('analytics-tab').addEventListener('click', function() {
+                loadAnalytics();
+            });
+        }
+        
+        async function loadStatistics() {
+            try {
+                const response = await fetch('/api/statistics');
+                const data = await response.json();
+                statistics = data.statistics;
+                
+                // Update statistics cards
+                document.getElementById('totalTransactions').textContent = statistics.total_transactions.toLocaleString();
+                document.getElementById('fraudRate').textContent = (statistics.fraud_rate * 100).toFixed(2) + '%';
+                document.getElementById('fraudRings').textContent = statistics.fraud_rings;
+                document.getElementById('totalAmount').textContent = '$' + statistics.total_amount.toLocaleString();
+                
+            } catch (error) {
+                console.error('Error loading statistics:', error);
+            }
+        }
+        
+        async function detectFraud() {
+            const formData = {
+                card_id: document.getElementById('cardId').value,
+                merchant_id: document.getElementById('merchantId').value,
+                device_id: document.getElementById('deviceId').value,
+                ip_address: document.getElementById('ipAddress').value,
+                amount: parseFloat(document.getElementById('amount').value),
+                category: document.getElementById('category').value,
+                country: document.getElementById('country').value
+            };
+            
+            try {
+                const response = await fetch('/api/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                displayPredictionResults(result);
+                
+            } catch (error) {
+                console.error('Error detecting fraud:', error);
+                document.getElementById('predictionResults').innerHTML = `
+                    <div class="alert alert-danger alert-custom">
+                        <i class="fas fa-exclamation-triangle"></i> Error detecting fraud: ${error.message}
+                    </div>
+                `;
+            }
+        }
+        
+        function displayPredictionResults(result) {
+            const predictions = result.predictions;
+            const combined = predictions.combined;
+            
+            let fraudClass = 'fraud-low';
+            let fraudText = 'Low Risk';
+            
+            if (combined.fraud_probability > 0.7) {
+                fraudClass = 'fraud-high';
+                fraudText = 'High Risk';
+            } else if (combined.fraud_probability > 0.4) {
+                fraudClass = 'fraud-medium';
+                fraudText = 'Medium Risk';
+            }
+            
+            document.getElementById('predictionResults').innerHTML = `
+                <div class="fraud-indicator ${fraudClass}">
+                    <i class="fas fa-shield-alt"></i> ${fraudText}
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-brain"></i> Deep Learning Model</h6>
+                        <div class="progress mb-2">
+                            <div class="progress-bar" style="width: ${predictions.deep_learning.fraud_probability * 100}%">
+                                ${(predictions.deep_learning.fraud_probability * 100).toFixed(1)}%
+                            </div>
+                        </div>
+                        <small class="text-muted">Confidence: ${(predictions.deep_learning.confidence * 100).toFixed(1)}%</small>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-project-diagram"></i> Graph-Based Model</h6>
+                        <div class="progress mb-2">
+                            <div class="progress-bar" style="width: ${predictions.graph_based.fraud_probability * 100}%">
+                                ${(predictions.graph_based.fraud_probability * 100).toFixed(1)}%
+                            </div>
+                        </div>
+                        <small class="text-muted">Confidence: ${(predictions.graph_based.confidence * 100).toFixed(1)}%</small>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="text-center">
+                    <h5><i class="fas fa-chart-line"></i> Combined Score</h5>
+                    <div class="progress mb-2" style="height: 30px;">
+                        <div class="progress-bar ${fraudClass}" style="width: ${combined.fraud_probability * 100}%">
+                            ${(combined.fraud_probability * 100).toFixed(1)}%
+                        </div>
+                    </div>
+                    <small class="text-muted">Overall Confidence: ${(combined.confidence * 100).toFixed(1)}%</small>
+                </div>
+                
+                ${predictions.graph_based.fraud_ring ? `
+                    <div class="alert alert-warning alert-custom mt-3">
+                        <i class="fas fa-exclamation-triangle"></i> 
+                        <strong>Fraud Ring Detected:</strong> ${predictions.graph_based.fraud_ring}
+                    </div>
+                ` : ''}
+            `;
+        }
+        
+        async function loadSampleTransactions() {
+            try {
+                const response = await fetch('/api/sample_transactions');
+                const data = await response.json();
+                
+                let html = '<div class="row">';
+                data.sample_transactions.forEach((txn, index) => {
+                    html += `
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6>Transaction ${index + 1}</h6>
+                                    <p><strong>Amount:</strong> $${txn.amount}</p>
+                                    <p><strong>Category:</strong> ${txn.category}</p>
+                                    <p><strong>Fraud:</strong> ${txn.is_fraud ? '<span class="badge bg-danger">Yes</span>' : '<span class="badge bg-success">No</span>'}</p>
+                                    <button class="btn btn-sm btn-custom" onclick="fillForm('${txn.card_id}', '${txn.merchant_id}', '${txn.device_id}', '${txn.ip_address}', ${txn.amount}, '${txn.category}', '${txn.country}')">
+                                        <i class="fas fa-arrow-up"></i> Use This
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+                
+                document.getElementById('sampleTransactions').innerHTML = html;
+                
+            } catch (error) {
+                console.error('Error loading sample transactions:', error);
+            }
+        }
+        
+        function fillForm(cardId, merchantId, deviceId, ipAddress, amount, category, country) {
+            document.getElementById('cardId').value = cardId;
+            document.getElementById('merchantId').value = merchantId;
+            document.getElementById('deviceId').value = deviceId;
+            document.getElementById('ipAddress').value = ipAddress;
+            document.getElementById('amount').value = amount;
+            document.getElementById('category').value = category;
+            document.getElementById('country').value = country;
+        }
+        
+        async function loadHeatmaps() {
+            document.getElementById('heatmapLoading').style.display = 'block';
+            document.getElementById('heatmapContent').style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/heatmaps');
+                const data = await response.json();
+                
+                let html = '';
+                Object.entries(data.html_visualizations).forEach(([key, heatmapHtml]) => {
+                    html += heatmapHtml;
+                });
+                
+                document.getElementById('heatmapContent').innerHTML = html;
+                document.getElementById('heatmapLoading').style.display = 'none';
+                document.getElementById('heatmapContent').style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading heatmaps:', error);
+                document.getElementById('heatmapLoading').innerHTML = `
+                    <div class="alert alert-danger alert-custom">
+                        <i class="fas fa-exclamation-triangle"></i> Error loading heatmaps: ${error.message}
+                    </div>
+                `;
+            }
+        }
+        
+        async function loadFraudRings() {
+            document.getElementById('ringsLoading').style.display = 'block';
+            document.getElementById('ringsContent').style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/fraud_rings');
+                const data = await response.json();
+                
+                let html = '<div class="row">';
+                Object.entries(data.fraud_rings).forEach(([ringName, ringData]) => {
+                    html += `
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6><i class="fas fa-network-wired"></i> ${ringName}</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>Cards:</strong> ${ringData.cards.length}</p>
+                                    <p><strong>Merchants:</strong> ${ringData.merchants.length}</p>
+                                    <p><strong>Devices:</strong> ${ringData.devices.length}</p>
+                                    <p><strong>IPs:</strong> ${ringData.ips.length}</p>
+                                    <p><strong>Transactions:</strong> ${ringData.transaction_count}</p>
+                                    <p><strong>Total Amount:</strong> $${ringData.total_amount.toLocaleString()}</p>
+                                    <p><strong>Avg Amount:</strong> $${ringData.avg_amount.toFixed(2)}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+                
+                document.getElementById('ringsContent').innerHTML = html;
+                document.getElementById('ringsLoading').style.display = 'none';
+                document.getElementById('ringsContent').style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading fraud rings:', error);
+                document.getElementById('ringsLoading').innerHTML = `
+                    <div class="alert alert-danger alert-custom">
+                        <i class="fas fa-exclamation-triangle"></i> Error loading fraud rings: ${error.message}
+                    </div>
+                `;
+            }
+        }
+        
+        async function loadAnalytics() {
+            // Create transaction distribution chart
+            const transactionCtx = document.getElementById('transactionChart').getContext('2d');
+            charts.transaction = new Chart(transactionCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Normal', 'Fraud'],
+                    datasets: [{
+                        label: 'Transactions',
+                        data: [statistics.total_transactions - statistics.fraud_transactions, statistics.fraud_transactions],
+                        backgroundColor: ['#4ecdc4', '#ff6b6b'],
+                        borderColor: ['#45b7aa', '#e55a5a'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+            
+            // Create fraud pie chart
+            const fraudCtx = document.getElementById('fraudChart').getContext('2d');
+            charts.fraud = new Chart(fraudCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Normal', 'Fraud'],
+                    datasets: [{
+                        data: [statistics.total_transactions - statistics.fraud_transactions, statistics.fraud_transactions],
+                        backgroundColor: ['#4ecdc4', '#ff6b6b'],
+                        borderColor: ['#45b7aa', '#e55a5a'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

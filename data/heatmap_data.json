@@ -1,0 +1,1944 @@
+{
+  "time_heatmap": {
+    "0": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 8092,
+        "fraud": 818,
+        "fraud_rate": 0.10108749382105783
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "1": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 7972,
+        "fraud": 824,
+        "fraud_rate": 0.10336176618163573
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "2": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 6481,
+        "fraud": 631,
+        "fraud_rate": 0.0973615182842154
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "3": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 6391,
+        "fraud": 599,
+        "fraud_rate": 0.09372555155687685
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "4": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 6440,
+        "fraud": 608,
+        "fraud_rate": 0.09440993788819876
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "5": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 6470,
+        "fraud": 693,
+        "fraud_rate": 0.1071097372488408
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "6": {
+      "0": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "1": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "2": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "3": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "4": {
+        "total": 8154,
+        "fraud": 827,
+        "fraud_rate": 0.10142261466764778
+      },
+      "5": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "6": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "7": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "8": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "9": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "10": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "11": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "12": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "13": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "14": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "15": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "16": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "17": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "18": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "19": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "20": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "21": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "22": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "23": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    }
+  },
+  "amount_heatmap": {
+    "groceries": {
+      "0-50": {
+        "total": 7464,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "50-100": {
+        "total": 1130,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "100-500": {
+        "total": 490,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "500-1000": {
+        "total": 7,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "1000-5000": {
+        "total": 1,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "5000+": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "gas": {
+      "0-50": {
+        "total": 7269,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "50-100": {
+        "total": 1122,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "100-500": {
+        "total": 487,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "500-1000": {
+        "total": 5,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "1000-5000": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "5000+": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "restaurant": {
+      "0-50": {
+        "total": 7461,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "50-100": {
+        "total": 1108,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "100-500": {
+        "total": 476,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "500-1000": {
+        "total": 6,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "1000-5000": {
+        "total": 1,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "5000+": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "retail": {
+      "0-50": {
+        "total": 7332,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "50-100": {
+        "total": 1134,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "100-500": {
+        "total": 493,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "500-1000": {
+        "total": 6,
+        "fraud": 0,
+        "fraud_rate": 0.0
+      },
+      "1000-5000": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      },
+      "5000+": {
+        "total": 0,
+        "fraud": 0,
+        "fraud_rate": 0
+      }
+    },
+    "online": {
+      "0-50": {
+        "total": 7698,
+        "fraud": 264,
+        "fraud_rate": 0.034294621979735
+      },
+      "50-100": {
+        "total": 1357,
+        "fraud": 248,
+        "fraud_rate": 0.18275607958732498
+      },
+      "100-500": {
+        "total": 952,
+        "fraud": 494,
+        "fraud_rate": 0.5189075630252101
+      },
+      "500-1000": {
+        "total": 130,
+        "fraud": 123,
+        "fraud_rate": 0.9461538461538461
+      },
+      "1000-5000": {
+        "total": 90,
+        "fraud": 90,
+        "fraud_rate": 1.0
+      },
+      "5000+": {
+        "total": 6,
+        "fraud": 6,
+        "fraud_rate": 1.0
+      }
+    },
+    "electronics": {
+      "0-50": {
+        "total": 290,
+        "fraud": 290,
+        "fraud_rate": 1.0
+      },
+      "50-100": {
+        "total": 215,
+        "fraud": 215,
+        "fraud_rate": 1.0
+      },
+      "100-500": {
+        "total": 487,
+        "fraud": 487,
+        "fraud_rate": 1.0
+      },
+      "500-1000": {
+        "total": 138,
+        "fraud": 138,
+        "fraud_rate": 1.0
+      },
+      "1000-5000": {
+        "total": 114,
+        "fraud": 114,
+        "fraud_rate": 1.0
+      },
+      "5000+": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      }
+    },
+    "jewelry": {
+      "0-50": {
+        "total": 316,
+        "fraud": 316,
+        "fraud_rate": 1.0
+      },
+      "50-100": {
+        "total": 191,
+        "fraud": 191,
+        "fraud_rate": 1.0
+      },
+      "100-500": {
+        "total": 498,
+        "fraud": 498,
+        "fraud_rate": 1.0
+      },
+      "500-1000": {
+        "total": 124,
+        "fraud": 124,
+        "fraud_rate": 1.0
+      },
+      "1000-5000": {
+        "total": 127,
+        "fraud": 127,
+        "fraud_rate": 1.0
+      },
+      "5000+": {
+        "total": 9,
+        "fraud": 9,
+        "fraud_rate": 1.0
+      }
+    },
+    "cash_advance": {
+      "0-50": {
+        "total": 262,
+        "fraud": 262,
+        "fraud_rate": 1.0
+      },
+      "50-100": {
+        "total": 215,
+        "fraud": 215,
+        "fraud_rate": 1.0
+      },
+      "100-500": {
+        "total": 502,
+        "fraud": 502,
+        "fraud_rate": 1.0
+      },
+      "500-1000": {
+        "total": 124,
+        "fraud": 124,
+        "fraud_rate": 1.0
+      },
+      "1000-5000": {
+        "total": 133,
+        "fraud": 133,
+        "fraud_rate": 1.0
+      },
+      "5000+": {
+        "total": 9,
+        "fraud": 9,
+        "fraud_rate": 1.0
+      }
+    }
+  },
+  "merchant_heatmap": {
+    "merchant_0207": {
+      "US": {
+        "total": 35,
+        "fraud": 35,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 42,
+        "fraud": 42,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 33,
+        "fraud": 33,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 38,
+        "fraud": 38,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0201": {
+      "US": {
+        "total": 38,
+        "fraud": 38,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 36,
+        "fraud": 36,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 35,
+        "fraud": 35,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0209": {
+      "US": {
+        "total": 38,
+        "fraud": 38,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 34,
+        "fraud": 34,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 30,
+        "fraud": 30,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 18,
+        "fraud": 18,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 47,
+        "fraud": 47,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0205": {
+      "US": {
+        "total": 35,
+        "fraud": 35,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 30,
+        "fraud": 30,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 36,
+        "fraud": 36,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 35,
+        "fraud": 35,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0208": {
+      "US": {
+        "total": 34,
+        "fraud": 34,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 39,
+        "fraud": 39,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 29,
+        "fraud": 29,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0200": {
+      "US": {
+        "total": 36,
+        "fraud": 36,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 45,
+        "fraud": 45,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0206": {
+      "US": {
+        "total": 29,
+        "fraud": 29,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 30,
+        "fraud": 30,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 36,
+        "fraud": 36,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 43,
+        "fraud": 43,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0204": {
+      "US": {
+        "total": 40,
+        "fraud": 40,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 34,
+        "fraud": 34,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 29,
+        "fraud": 29,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 33,
+        "fraud": 33,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0203": {
+      "US": {
+        "total": 35,
+        "fraud": 35,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 25,
+        "fraud": 25,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 37,
+        "fraud": 37,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0202": {
+      "US": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 25,
+        "fraud": 25,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0311": {
+      "US": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 31,
+        "fraud": 31,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0310": {
+      "US": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 29,
+        "fraud": 29,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 23,
+        "fraud": 23,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0307": {
+      "US": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 25,
+        "fraud": 25,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0308": {
+      "US": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0303": {
+      "US": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 32,
+        "fraud": 32,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 13,
+        "fraud": 13,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 19,
+        "fraud": 19,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0306": {
+      "US": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 22,
+        "fraud": 22,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0312": {
+      "US": {
+        "total": 22,
+        "fraud": 22,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 25,
+        "fraud": 25,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 17,
+        "fraud": 17,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0300": {
+      "US": {
+        "total": 25,
+        "fraud": 25,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 23,
+        "fraud": 23,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0309": {
+      "US": {
+        "total": 26,
+        "fraud": 26,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 17,
+        "fraud": 17,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 28,
+        "fraud": 28,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 20,
+        "fraud": 20,
+        "fraud_rate": 1.0
+      }
+    },
+    "merchant_0305": {
+      "US": {
+        "total": 16,
+        "fraud": 16,
+        "fraud_rate": 1.0
+      },
+      "CA": {
+        "total": 19,
+        "fraud": 19,
+        "fraud_rate": 1.0
+      },
+      "UK": {
+        "total": 24,
+        "fraud": 24,
+        "fraud_rate": 1.0
+      },
+      "DE": {
+        "total": 21,
+        "fraud": 21,
+        "fraud_rate": 1.0
+      },
+      "FR": {
+        "total": 27,
+        "fraud": 27,
+        "fraud_rate": 1.0
+      }
+    }
+  },
+  "fraud_ring_heatmap": {
+    "ring_1": {
+      "cards": 10,
+      "merchants": 10,
+      "devices": 10,
+      "ips": 10,
+      "transactions": 1636,
+      "total_amount": 723116.73,
+      "fraud_rate": 1.0
+    },
+    "ring_2": {
+      "cards": 15,
+      "merchants": 15,
+      "devices": 15,
+      "ips": 15,
+      "transactions": 1685,
+      "total_amount": 733739.12,
+      "fraud_rate": 1.0
+    },
+    "ring_3": {
+      "cards": 20,
+      "merchants": 20,
+      "devices": 20,
+      "ips": 20,
+      "transactions": 1679,
+      "total_amount": 758654.23,
+      "fraud_rate": 1.0
+    }
+  },
+  "network_heatmap": {
+    "card_003012": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003018": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003017": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003002": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003008": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003015": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003013": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003004": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003014": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003009": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003000": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003005": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003011": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003016": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    },
+    "card_003006": {
+      "merchant_1177": 0,
+      "merchant_1784": 0,
+      "merchant_1146": 0,
+      "merchant_1674": 0,
+      "merchant_1166": 0,
+      "merchant_1504": 0,
+      "merchant_1621": 0,
+      "merchant_1431": 0,
+      "merchant_1525": 0,
+      "merchant_1738": 0,
+      "merchant_1954": 0,
+      "merchant_1070": 0,
+      "merchant_1517": 0,
+      "merchant_1518": 0,
+      "merchant_1412": 0
+    }
+  }
+}
