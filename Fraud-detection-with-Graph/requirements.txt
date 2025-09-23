@@ -1,0 +1,56 @@
+# Core dependencies
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+scipy==1.11.1
+
+# Graph processing
+networkx==3.1
+igraph==0.10.5
+python-louvain==0.16
+karateclub==1.3.3
+
+# Deep learning and GNN
+torch==2.0.1
+torch-geometric==2.3.1
+dgl==1.1.1
+tensorflow==2.13.0
+spektral==1.2.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+pyvis==0.3.2
+graphviz==0.20.1
+
+# API and web
+fastapi==0.101.0
+uvicorn==0.23.2
+pydantic==2.1.1
+redis==4.6.0
+celery==5.3.1
+
+# Monitoring and logging
+prometheus-client==0.17.1
+grafana-api==1.0.3
+loguru==0.7.0
+
+# Database
+neo4j==5.11.0
+pymongo==4.4.1
+sqlalchemy==2.0.19
+psycopg2-binary==2.9.7
+
+# Utils
+python-dotenv==1.0.0
+click==8.1.6
+tqdm==4.65.0
+joblib==1.3.1
+pyyaml==6.0.1
+
+# Testing
+pytest==7.4.0
+pytest-asyncio==0.21.1
+httpx==0.24.1
+faker==19.2.0
