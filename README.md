@@ -1,346 +1,241 @@
-# 🛡️ Credit Card Fraud Detection System
-## Advanced Deep Learning & Graph-Based Detection
+# Personal Growth Tracker Microservices
 
-A comprehensive, production-ready fraud detection system that combines cutting-edge deep learning techniques with graph neural networks to detect both individual fraudulent transactions and organized fraud rings. Perfect for school projects, research, and real-world applications.
+A comprehensive multi-module Spring Boot microservices project for tracking personal growth across various life dimensions.
 
-## 🌟 Key Features
+## Project Overview
 
-### 🔍 Multi-Model Detection
-- **Deep Learning Models**: CNN, LSTM, Transformer, and Deep Neural Networks
-- **Graph Neural Networks**: GraphSAGE, GAT, and GCN for fraud ring detection
-- **Ensemble Methods**: Combines multiple models for improved accuracy
-- **Real-time Processing**: Sub-second fraud detection capabilities
+This project implements a microservices architecture for a Personal Growth Tracker application using Spring Boot 3.2+, Java 21, and Maven. The system is designed to help users track and analyze their progress across different aspects of personal development.
 
-### 🕸️ Graph-Based Fraud Ring Detection
-- **Community Detection**: Identifies fraud rings using Louvain algorithm
-- **Pattern Recognition**: Detects suspicious patterns across cards, merchants, devices, and IPs
-- **Network Analysis**: Analyzes relationships between entities
-- **Collusion Detection**: Identifies organized fraud activities
+## Architecture
 
-### 📊 Advanced Visualizations
-- **Interactive Heatmaps**: Comprehensive fraud pattern analysis
-- **Real-time Dashboards**: Live monitoring with Streamlit
-- **Graph Visualizations**: Network graphs showing fraud rings
-- **Performance Metrics**: Model comparison and evaluation charts
+### Tech Stack
+- **Java**: 21
+- **Spring Boot**: 3.2.10
+- **Spring Cloud**: 2023.0.4
+- **Spring AI**: 1.0.0-M2
+- **Build Tool**: Maven
+- **Database**: H2 (in-memory for each service)
+- **Gateway**: Spring Cloud Gateway
 
-### 🚀 Production-Ready API
-- **RESTful Endpoints**: FastAPI-based scalable API
-- **Batch Processing**: Handle multiple transactions efficiently
-- **Real-time Monitoring**: WebSocket-based live updates
-- **Comprehensive Testing**: Full test suite with CURL examples
+### Microservices
 
-## 🎯 Problem Solved
+The application consists of 8 microservices, each running on different ports:
 
-**Detect fraud rings and collusion by modeling relationships between cards, merchants, devices, IPs.**
+| Service | Port | Description | Dependencies |
+|---------|------|-------------|--------------|
+| **Gateway Service** | 8080 | API Gateway routing requests to microservices | Spring Cloud Gateway, WebFlux |
+| **Financial Service** | 8081 | Financial goal and expense tracking | Spring Web, JPA, H2 |
+| **Physical Service** | 8082 | Physical health and fitness tracking | Spring Web, JPA, H2 |
+| **Emotional Service** | 8083 | Emotional well-being monitoring | Spring Web, JPA, H2 |
+| **Career Service** | 8084 | Career development and goal tracking | Spring Web, JPA, H2 |
+| **Spiritual Service** | 8085 | Spiritual growth and practices | Spring Web, JPA, H2 |
+| **Social Service** | 8086 | Social interactions and relationships | Spring Web, JPA, H2 |
+| **AI Service** | 8087 | AI-powered insights and recommendations | Spring Web, Spring AI OpenAI |
 
-### Success Metrics
-- ✅ **Improved Detection**: Better detection of organized fraud vs transaction-only models
-- ✅ **PR-AUC**: High precision-recall performance
-- ✅ **Cluster Purity**: Quality fraud ring detection
-- ✅ **Real-time Alerts**: Immediate fraud notifications
+## Project Structure
 
-### Methods Implemented
-- **Bipartite/Heterogeneous Graphs**: Cards ↔ Merchants ↔ Devices ↔ IPs
-- **GNNs**: GraphSAGE, GAT for node classification
-- **Community Detection**: Louvain algorithm for fraud ring identification
-- **Feature Engineering**: Advanced pattern recognition
+```
+personal-tracker-ms/
+├── pom.xml                     # Root POM with dependency management
+├── gateway-service/            # API Gateway
+│   ├── pom.xml
+│   └── src/
+├── financial-service/          # Financial tracking microservice
+│   ├── pom.xml
+│   └── src/
+├── physical-service/           # Physical health microservice
+│   ├── pom.xml
+│   └── src/
+├── emotional-service/          # Emotional well-being microservice
+│   ├── pom.xml
+│   └── src/
+├── career-service/             # Career development microservice
+│   ├── pom.xml
+│   └── src/
+├── spiritual-service/          # Spiritual growth microservice
+│   ├── pom.xml
+│   └── src/
+├── social-service/             # Social interactions microservice
+│   ├── pom.xml
+│   └── src/
+└── ai-service/                 # AI insights microservice
+    ├── pom.xml
+    └── src/
+```
 
-## 🚀 Quick Start
+## Gateway Routing Configuration
 
-### 1. Installation
+The Gateway Service routes requests to appropriate microservices based on URL patterns:
+
+| Path Pattern | Target Service | Port |
+|--------------|----------------|------|
+| `/api/financial/**` | Financial Service | 8081 |
+| `/api/physical/**` | Physical Service | 8082 |
+| `/api/emotional/**` | Emotional Service | 8083 |
+| `/api/career/**` | Career Service | 8084 |
+| `/api/spiritual/**` | Spiritual Service | 8085 |
+| `/api/social/**` | Social Service | 8086 |
+| `/api/ai/**` | AI Service | 8087 |
+
+## Getting Started
+
+### Prerequisites
+- Java 21
+- Maven 3.6+
+- (Optional) OpenAI API Key for AI Service functionality
+
+### Building the Project
+
+1. **Validate Project Structure**:
+   ```bash
+   mvn validate
+   ```
+
+2. **Clean and Compile All Services**:
+   ```bash
+   mvn clean compile
+   ```
+
+3. **Package All Services**:
+   ```bash
+   mvn clean package
+   ```
+
+### Running the Services
+
+#### Start All Services (Recommended Order)
+
+1. **Start Gateway Service**:
+   ```bash
+   cd gateway-service
+   mvn spring-boot:run
+   ```
+
+2. **Start Individual Microservices** (in separate terminals):
+   ```bash
+   # Financial Service
+   cd financial-service && mvn spring-boot:run
+
+   # Physical Service  
+   cd physical-service && mvn spring-boot:run
+
+   # Emotional Service
+   cd emotional-service && mvn spring-boot:run
+
+   # Career Service
+   cd career-service && mvn spring-boot:run
+
+   # Spiritual Service
+   cd spiritual-service && mvn spring-boot:run
+
+   # Social Service
+   cd social-service && mvn spring-boot:run
+
+   # AI Service (requires OPENAI_API_KEY environment variable)
+   cd ai-service && mvn spring-boot:run
+   ```
+
+#### Alternative: Run from Root Directory
 ```bash
-# Clone the repository
-git clone <repository-url>
-cd fraud-detection-system
+# Build all modules
+mvn clean install
 
-# Install dependencies
-pip install -r requirements.txt
+# Run individual services using their JAR files
+java -jar gateway-service/target/gateway-service-1.0.0.jar
+java -jar financial-service/target/financial-service-1.0.0.jar
+# ... etc for other services
 ```
 
-### 2. Generate Sample Data
-```bash
-python data_processor.py
-```
+### Configuration
 
-### 3. Start the API Server
-```bash
-python api.py
-```
-
-### 4. Launch Web Interface
-```bash
-streamlit run app.py
-```
-
-### 5. Run Tests
-```bash
-python test_api.py
-```
-
-## 📁 Project Structure
-
-```
-fraud_detection/
-├── 📊 data/                    # Datasets and mock data
-│   ├── creditcard_fraud.csv    # Main dataset
-│   ├── normal_transactions.csv # Test data
-│   └── suspicious_transactions.csv
-├── 🤖 models/                  # Deep learning models
-│   └── deep_learning_models.py # CNN, LSTM, Transformer, Deep NN
-├── 🕸️ graph/                   # Graph-based detection
-│   └── graph_fraud_detection.py # GNNs and fraud ring detection
-├── 📈 visualization/           # Heatmaps and plots
-│   └── heatmap_visualizer.py   # Advanced visualizations
-├── 🌐 api/                     # REST API endpoints
-├── 📱 app.py                   # Streamlit web interface
-├── ⚡ api.py                   # FastAPI server
-├── 🧪 test_api.py             # Comprehensive testing
-├── 🔔 advanced_features.py    # Real-time monitoring & alerts
-├── 📋 requirements.txt        # Dependencies
-└── 📖 README.md              # This documentation
-```
-
-## 🔧 API Endpoints
-
-### Core Detection
-- `POST /detect` - Single transaction fraud detection
-- `POST /batch_detect` - Batch transaction analysis
-- `POST /graph_analysis` - Graph-based fraud ring detection
-
-### Visualization & Analysis
-- `POST /heatmap` - Generate fraud pattern heatmaps
-- `GET /stats` - System statistics and performance metrics
-- `GET /models` - Available models information
-
-### System Management
-- `POST /train` - Train models in background
-- `GET /health` - API health check
-
-## 🧪 Testing & Demonstration
-
-### CURL Commands for Presentation
+#### AI Service Setup
+The AI Service requires an OpenAI API key. Set it as an environment variable:
 
 ```bash
-# 1. Health Check
-curl -X GET http://localhost:8000/health
-
-# 2. Single Transaction Detection
-curl -X POST http://localhost:8000/detect \
-  -H "Content-Type: application/json" \
-  -d '{
-    "Time": 100.0,
-    "V1": 2.5, "V2": -2.1, "V3": 1.8, "V4": -1.9,
-    "Amount": 500.0,
-    "Merchant": "online",
-    "Country": "US",
-    "Device": "mobile",
-    "Card_ID": "CARD_SUSPICIOUS",
-    "Hour": 2
-  }'
-
-# 3. Batch Analysis
-curl -X POST http://localhost:8000/batch_detect \
-  -H "Content-Type: application/json" \
-  -d '{"transactions": [...]}'
-
-# 4. Graph Analysis
-curl -X POST http://localhost:8000/graph_analysis \
-  -H "Content-Type: application/json" \
-  -d '{"analysis_type": "fraud_rings"}'
-
-# 5. Generate Heatmap
-curl -X POST http://localhost:8000/heatmap \
-  -H "Content-Type: application/json" \
-  -d '{"analysis_type": "fraud_patterns"}'
+export OPENAI_API_KEY=your-openai-api-key-here
 ```
 
-### Automated Demo Script
-```bash
-# Run the complete demonstration
-./presentation_demo.sh
+Or modify the `ai-service/src/main/resources/application.yml` file:
+```yaml
+spring:
+  ai:
+    openai:
+      api-key: your-actual-api-key-here
 ```
 
-## 📊 Performance Metrics
+#### Database Access
+Each service uses H2 in-memory database with console access:
+- **Financial Service**: http://localhost:8081/h2-console
+- **Physical Service**: http://localhost:8082/h2-console  
+- **Emotional Service**: http://localhost:8083/h2-console
+- **Career Service**: http://localhost:8084/h2-console
+- **Spiritual Service**: http://localhost:8085/h2-console
+- **Social Service**: http://localhost:8086/h2-console
 
-### Model Performance
-- **CNN Model**: 95.2% Accuracy, 0.94 AUC
-- **LSTM Model**: 94.8% Accuracy, 0.93 AUC  
-- **Transformer Model**: 95.5% Accuracy, 0.95 AUC
-- **GraphSAGE**: 96.1% Accuracy, 0.96 AUC
+**Connection Details**:
+- JDBC URL: `jdbc:h2:mem:[servicename]db` (e.g., `jdbc:h2:mem:financialdb`)
+- Username: `sa`
+- Password: `password`
 
-### System Performance
-- **Detection Speed**: <100ms per transaction
-- **Batch Processing**: 1000+ transactions/second
-- **Memory Usage**: <2GB RAM
-- **Uptime**: 99.9% availability
+## API Access
 
-## 🔔 Advanced Features
+### Through Gateway (Recommended)
+Access all services through the gateway at `http://localhost:8080`:
+- Financial API: `http://localhost:8080/api/financial/...`
+- Physical API: `http://localhost:8080/api/physical/...`
+- Emotional API: `http://localhost:8080/api/emotional/...`
+- Career API: `http://localhost:8080/api/career/...`
+- Spiritual API: `http://localhost:8080/api/spiritual/...`
+- Social API: `http://localhost:8080/api/social/...`
+- AI API: `http://localhost:8080/api/ai/...`
 
-### Real-time Monitoring
-- **WebSocket Server**: Live fraud alerts
-- **Performance Metrics**: Real-time system monitoring
-- **Alert Management**: Configurable alert rules and thresholds
+### Direct Service Access
+Each service can also be accessed directly on their individual ports (8081-8087).
 
-### Notification System
-- **Email Alerts**: SMTP integration
-- **Slack Integration**: Webhook notifications
-- **SMS Alerts**: Twilio integration
-- **Custom Webhooks**: Flexible notification system
+## Health Checks
 
-### Alert Levels
-- 🟢 **Low**: Fraud probability 0.5-0.6
-- 🟡 **Medium**: Fraud probability 0.6-0.8
-- 🟠 **High**: Fraud probability 0.8-0.9
-- 🔴 **Critical**: Fraud probability >0.9
+Monitor service health through actuator endpoints:
+- Gateway: `http://localhost:8080/actuator/health`
+- Individual Services: `http://localhost:808[1-7]/actuator/health`
 
-## 🎓 Educational Value
+## Development Features
 
-### Perfect for School Projects
-- **Comprehensive Documentation**: Detailed explanations of all components
-- **Modular Design**: Easy to understand and modify
-- **Real-world Application**: Practical fraud detection system
-- **Multiple Technologies**: Deep learning, graph theory, web development
+### Centralized Dependency Management
+- All Spring Boot and Spring Cloud versions managed in root `pom.xml`
+- Consistent dependency versions across all microservices
+- Easy version updates from single location
 
-### Learning Outcomes
-- Deep learning model implementation
-- Graph neural network applications
-- API development with FastAPI
-- Web interface development with Streamlit
-- Real-time monitoring systems
-- Data visualization techniques
+### Development Tools Included
+- Spring Boot DevTools (for hot reloading during development)
+- Actuator endpoints for monitoring
+- H2 console for database inspection
+- Debug logging configurations
 
-## 🛠️ Technologies Used
+### Modular Architecture
+- Each service is independent with its own database
+- Services can be developed, tested, and deployed separately  
+- Clean separation of concerns by business domain
 
-### Core Technologies
-- **Python 3.9+**: Main programming language
-- **PyTorch 2.0+**: Deep learning framework
-- **PyTorch Geometric**: Graph neural networks
-- **FastAPI**: High-performance API framework
-- **Streamlit**: Web interface framework
+## Next Steps for Development
 
-### Data Processing
-- **Pandas**: Data manipulation
-- **NumPy**: Numerical computing
-- **Scikit-learn**: Machine learning utilities
-- **Imbalanced-learn**: Handling class imbalance
+1. **Add Domain Models**: Create JPA entities for each service domain
+2. **Implement REST Controllers**: Add API endpoints for CRUD operations
+3. **Service Communication**: Implement inter-service communication using OpenFeign
+4. **Security**: Add Spring Security and JWT authentication
+5. **Monitoring**: Integrate distributed tracing with Zipkin/Sleuth
+6. **Configuration**: Add Spring Cloud Config Server
+7. **Service Discovery**: Implement Eureka or Consul for service registry
+8. **Testing**: Add comprehensive unit and integration tests
+9. **Documentation**: Generate API documentation with OpenAPI/Swagger
+10. **Deployment**: Create Docker containers and Kubernetes manifests
 
-### Visualization
-- **Plotly**: Interactive visualizations
-- **Matplotlib**: Static plots
-- **Seaborn**: Statistical visualizations
-- **NetworkX**: Graph analysis
+## Contributing
 
-### Deployment
-- **Uvicorn**: ASGI server
-- **WebSockets**: Real-time communication
-- **Docker**: Containerization (optional)
-
-## 📈 Dataset Information
-
-### Credit Card Fraud Dataset
-- **Source**: Kaggle Credit Card Fraud Detection
-- **Size**: 284,807 transactions
-- **Features**: 28 PCA components + Amount + Time
-- **Fraud Rate**: 0.172% (highly imbalanced)
-- **Enhancement**: Added merchant, device, location data
-
-### Synthetic Data Generation
-- **Mock Data**: 50,000+ transactions for testing
-- **Fraud Rings**: Simulated organized fraud patterns
-- **Realistic Patterns**: Based on real fraud characteristics
-- **Configurable**: Adjustable fraud rates and patterns
-
-## 🔒 Security Considerations
-
-### Data Privacy
-- **Anonymized Data**: No real personal information
-- **Secure API**: HTTPS support
-- **Access Control**: Configurable authentication
-- **Audit Logging**: Complete transaction logs
-
-### Model Security
-- **Model Validation**: Comprehensive testing
-- **Adversarial Robustness**: Protection against attacks
-- **Regular Updates**: Continuous model improvement
-- **Performance Monitoring**: Real-time model health
-
-## 🚀 Deployment Options
-
-### Local Development
-```bash
-# Development setup
-python api.py          # API server
-streamlit run app.py   # Web interface
-```
-
-### Production Deployment
-```bash
-# Using Docker
-docker build -t fraud-detection .
-docker run -p 8000:8000 -p 8501:8501 fraud-detection
-
-# Using cloud platforms
-# Deploy to AWS, GCP, Azure, or Heroku
-```
-
-### Scaling Considerations
-- **Horizontal Scaling**: Multiple API instances
-- **Load Balancing**: Distribute traffic
-- **Database Integration**: PostgreSQL/MongoDB
-- **Caching**: Redis for performance
-- **Monitoring**: Prometheus + Grafana
-
-## 🤝 Contributing
-
-### Getting Started
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-### Development Guidelines
-- Follow PEP 8 style guide
-- Add comprehensive tests
-- Update documentation
-- Ensure backward compatibility
-
-## 📄 License
-
-MIT License - Perfect for educational and commercial use!
-
-## 🙏 Acknowledgments
-
-- **Kaggle**: For the original credit card fraud dataset
-- **PyTorch Team**: For the excellent deep learning framework
-- **FastAPI Team**: For the high-performance API framework
-- **Streamlit Team**: For the amazing web interface framework
-
-## 📞 Support
-
-### Documentation
-- **API Docs**: http://localhost:8000/docs
-- **Web Interface**: http://localhost:8501
-- **GitHub Issues**: Report bugs and feature requests
-
-### Contact
-- **Email**: [your-email@domain.com]
-- **LinkedIn**: [your-linkedin-profile]
-- **GitHub**: [your-github-profile]
+This project follows Spring Boot and microservices best practices. Each service should remain focused on its specific domain and communicate through well-defined APIs.
 
 ---
 
-## 🎯 Project Summary
-
-This Credit Card Fraud Detection System is a comprehensive solution that demonstrates:
-
-✅ **Advanced Deep Learning**: Multiple neural network architectures  
-✅ **Graph-Based Detection**: Fraud ring and collusion detection  
-✅ **Real-time Processing**: Sub-second fraud detection  
-✅ **Production-Ready API**: Scalable REST API with FastAPI  
-✅ **Interactive Web Interface**: User-friendly Streamlit dashboard  
-✅ **Comprehensive Testing**: Full test suite with CURL examples  
-✅ **Advanced Monitoring**: Real-time alerts and notifications  
-✅ **Educational Value**: Perfect for school projects and learning  
-
-**Ready for presentation, demonstration, and real-world deployment!** 🚀
+**Created**: October 2025  
+**Java Version**: 21  
+**Spring Boot Version**: 3.2.10  
+**Spring Cloud Version**: 2023.0.4

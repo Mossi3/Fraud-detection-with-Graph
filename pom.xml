@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.personaltracker</groupId>
+    <artifactId>personal-tracker-ms</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Personal Growth Tracker Microservices</name>
+    <description>Multi-module Spring Boot project for Personal Growth Tracker microservices</description>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        
+        <!-- Spring Boot and Spring Cloud versions -->
+        <spring-boot.version>3.2.10</spring-boot.version>
+        <spring-cloud.version>2023.0.4</spring-cloud.version>
+        <spring-ai.version>1.0.0-M2</spring-ai.version>
+        
+        <!-- Maven plugins versions -->
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
+    </properties>
+
+    <!-- Module definitions -->
+    <modules>
+        <module>gateway-service</module>
+        <module>financial-service</module>
+        <module>physical-service</module>
+        <module>emotional-service</module>
+        <module>career-service</module>
+        <module>spiritual-service</module>
+        <module>social-service</module>
+        <module>ai-service</module>
+    </modules>
+
+    <!-- Dependency Management -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Boot BOM -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Spring Cloud BOM -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Spring AI BOM -->
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-bom</artifactId>
+                <version>${spring-ai.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Additional common dependencies -->
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>2.2.224</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- Common plugins for all modules -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring-boot.version}</version>
+                </plugin>
+                
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                    <configuration>
+                        <source>21</source>
+                        <target>21</target>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <!-- Repositories for Spring AI milestone releases -->
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>
